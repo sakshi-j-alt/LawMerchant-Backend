@@ -1,6 +1,6 @@
 import json
 
-def getkeyword(productarray, json_file='myapp\keywords.json'):
+def getkeyword(productarray, json_file='myapp/keywords.json'):
     # Load the JSON data from the file
     with open(json_file, 'r') as file:
         keywords = json.load(file)
@@ -8,14 +8,18 @@ def getkeyword(productarray, json_file='myapp\keywords.json'):
     # Create a new list to avoid modifying the input list directly
     result_array = productarray[:]
     
+    # Flatten the keywords dictionary
+    flat_keywords = {key: value for item in keywords for key, value in item.items()}
+    
     # Iterate over the input product array
     for product in productarray:
-        # Check if the product exists as a key in the JSON data
-        if product in keywords:
+        # Check if the product exists as a key in the flattened keywords dictionary
+        if product in flat_keywords:
             # Append the corresponding values to the result array
-            result_array.extend(keywords[product])
+            result_array.extend(flat_keywords[product])
     
     return result_array
+
 
 
 

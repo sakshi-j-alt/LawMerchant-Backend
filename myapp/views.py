@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse
 from .models import regu_connection
 import os
 from .sakshi import getkeyword
+from .ritesh import processData
 
 def lawMerchantApi (request) : 
     return HttpResponse("hello world")
@@ -37,6 +38,11 @@ def extractData(request):
     if product_name:
         product_array = ["regulation", product_name]
         keywords = getkeyword(product_array)
-        return HttpResponse(keywords)
+        result = processData(keywords)
+        for r in keywords :
+            print (r+"\n")
+        return HttpResponse(result)
+    
     else:
         return HttpResponse("No product name provided", status=400)
+
