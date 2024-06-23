@@ -3,5 +3,7 @@ from . import views
 
 urlpatterns = [
     path('',views.lawMerchantApi,name="lawMerchantApi"),
-    path('add',views.add,name="test_db")
+    path('add',views.add,name="add"),
+    path('uploadFile', views.render_upload_form),
+    path('extractData',views.extractData)
 ]

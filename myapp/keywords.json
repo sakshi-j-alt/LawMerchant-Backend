@@ -1,8 +1,2216 @@
-{
-   "icecream" : [
-    "milk" , "cream", "flavor" ], 
+[
+    {
+      "Perry": [
+        "Pears",
+        "Other fruits (optional)",
+        "Spices and flavorings",
+        "Sweeteners (optional)",
+        "Dairy products (optional)",
+        "Nuts (optional)",
+        "Breads and pastries (optional)",
+        "Wine or cider (optional)"
+      ]
+    },
+    {
+      "Condiments": [
+        "Various spices",
+        "Herbs",
+        "Salt",
+        "Pepper",
+        "Sugar",
+        "Vinegar",
+        "Mustard",
+        "Ketchup",
+        "Mayonnaise",
+        "Soy sauce",
+        "Fish sauce",
+        "Chili sauce",
+        "BBQ sauce",
+        "Pickles",
+        "Relish"
+      ]
+    },
+    {
+      "Saccharins": [
+        "Artificial sweeteners",
+        "Saccharin"
+      ]
+    },
+    {
+      "Turnip": [
+        "Turnip"
+      ]
+    },
+    {
+      "Okra": [
+        "Okra"
+      ]
+    },
+    {
+      "Pizza": [
+        "Dough",
+        "Tomato sauce",
+        "Cheese",
+        "Toppings (pepperoni, sausage, vegetables, etc.)"
+      ]
+    },
+    {
+      "Caraway": [
+        "Caraway seeds"
+      ]
+    },
+    {
+      "Cumin": [
+        "Cumin seeds",
+        "Ground cumin"
+      ]
+    },
+    {
+      "Gelatin": [
+        "Gelatin"
+      ]
+    },
+    {
+      "Mozzarella": [
+        "Mozzarella cheese"
+      ]
+    },
+    {
+      "Wort": [
+        "Wort (fermented liquid)"
+      ]
+    },
+    {
+      "Acerola": [
+        "Acerola fruit"
+      ]
+    },
+    {
+      "Sardine": [
+        "Sardines"
+      ]
+    },
+    {
+      "MSG": [
+        "Monosodium glutamate (MSG)"
+      ]
+    },
+    {
+      "Dietary": [
+        "Dietary supplements",
+        "Vitamins",
+        "Minerals"
+      ]
+    },
+    {
+      "Millet": [
+        "Millet"
+      ]
+    },
+    {
+      "Saccharin": [
+        "Saccharin"
+      ]
+    },
+    {
+      "Mace": [
+        "Mace (spice)"
+      ]
+    },
+    {
+      "Potatoes": [
+        "Potatoes"
+      ]
+    },
+    {
+      "Puree": [
+        "Pureed fruits or vegetables"
+      ]
+    },
+    {
+      "Mutton": [
+        "Mutton (sheep meat)"
+      ]
+    },
+    {
+      "Cocoa": [
+        "Cocoa beans",
+        "Cocoa powder",
+        "Cocoa butter"
+      ]
+    },
+    {
+      "Sop": [
+        "Sop (type of soup or stew)"
+      ]
+    },
+    {
+      "Centre": [
+        "Centre (possibly referring to central ingredient or focus)"
+      ]
+    },
+    {
+      "Chutney": [
+        "Chutney (condiment)"
+      ]
+    },
+    {
+      "Sauces": [
+        "Various sauces (BBQ sauce, soy sauce, etc.)"
+      ]
+    },
+    {
+      "Borage": [
+        "Borage (herb)"
+      ]
+    },
+    {
+      "Marmalade": [
+        "Marmalade (fruit preserve)"
+      ]
+    },
+    {
+      "Groundnut": [
+        "Groundnut (peanut)"
+      ]
+    },
+    {
+      "Olives": [
+        "Olives"
+      ]
+    },
+    {
+      "Squid": [
+        "Squid"
+      ]
+    },
+    {
+      "Elderberry": [
+        "Elderberry"
+      ]
+    },
+    {
+      "Coconut": [
+        "Coconut"
+      ]
+    },
+    {
+      "Spices": [
+        "Various spices (cinnamon, cloves, etc.)"
+      ]
+    },
+    {
+      "Pepper": [
+        "Peppercorns",
+        "Ground pepper"
+      ]
+    },
+    {
+      "Cashew": [
+        "Cashew nuts"
+      ]
+    },
+    {
+      "Soy": [
+        "Soybeans",
+        "Soy sauce",
+        "Tofu",
+        "Tempeh",
+        "Edamame"
+      ]
+    },
+    {
+      "Tapioca": [
+        "Tapioca pearls"
+      ]
+    },
+    {
+      "Stock": [
+        "Stock (broth)"
+      ]
+    },
+    {
+      "Centers": [
+        "Centers (possibly referring to central ingredient or focus)"
+      ]
+    },
+    {
+      "Mango": [
+        "Mango"
+      ]
+    },
+    {
+      "Date": [
+        "Dates"
+      ]
+    },
+    {
+      "Sprat": [
+        "Sprat (fish)"
+      ]
+    },
+    {
+      "Legumes": [
+        "Legumes (beans, peas, lentils)"
+      ]
+    },
+    {
+      "Sugars": [
+        "Various sugars (white sugar, brown sugar, etc.)"
+      ]
+    },
+    {
+      "Mackerel": [
+        "Mackerel (fish)"
+      ]
+    },
+    {
+      "Flours": [
+        "Various flours (wheat flour, rice flour, etc.)"
+      ]
+    },
+    {
+      "Sultanas": [
+        "Sultanas (type of dried grape)"
+      ]
+    },
+    {
+      "Watermelon": [
+        "Watermelon"
+      ]
+    },
+    {
+      "Bishops": [
+        "Bishops (possibly referring to a specific food or ingredient)"
+      ]
+    },
+    {
+      "Custard": [
+        "Custard"
+      ]
+    },
+    {
+      "Tea": [
+        "Tea leaves",
+        "Tea extracts"
+      ]
+    },
+    {
+      "Flavouring": [
+        "Various flavorings (natural and artificial)"
+      ]
+    },
+    {
+      "Strawberries": [
+        "Strawberries"
+      ]
+    },
+    {
+      "Syrups": [
+        "Various syrups (maple syrup, corn syrup, etc.)"
+      ]
+    },
+    {
+      "Gluten": [
+        "Gluten (protein found in wheat and related grains)"
+      ]
+    },
+    {
+      "Shad": [
+        "Shad (fish)"
+      ]
+    },
+    {
+      "Gravy": [
+        "Gravy"
+      ]
+    },
+    {
+      "Lichi": [
+        "Lichi (lychee)"
+      ]
+    },
+    {
+      "Pomegranate": [
+        "Pomegranate"
+      ]
+    },
+    {
+      "Apricot": [
+        "Apricot"
+      ]
+    },
+    {
+      "Oil": [
+        "Various cooking oils (olive oil, vegetable oil, etc.)"
+      ]
+    },
+    {
+      "Suet": [
+        "Suet (beef or mutton fat)"
+      ]
+    },
+    {
+      "Chilli": [
+        "Chilli peppers"
+      ]
+    },
+    {
+      "Lobster": [
+        "Lobster"
+      ]
+    },
+    {
+      "Millets": [
+        "Millets"
+      ]
+    },
+    {
+      "Draught": [
+        "Draught (possibly referring to a type of beer)"
+      ]
+    },
+    {
+      "Meal": [
+        "Meal (prepared food)"
+      ]
+    },
+    {
+      "Shrimps": [
+        "Shrimps"
+      ]
+    },
+    {
+      "Mussel": [
+        "Mussel"
+      ]
+    },
+    {
+      "Coffee": [
+        "Coffee beans",
+        "Coffee grounds",
+        "Instant coffee"
+      ]
+    },
+    {
+      "Rum": [
+        "Rum"
+      ]
+    },
+    {
+      "Cereals": [
+        "Various cereals (wheat, oats, corn, etc.)"
+      ]
+    },
+    {
+      "Mimosa": [
+        "Mimosa (type of drink)"
+      ]
+    },
+    {
+      "Aniseed": [
+        "Aniseed"
+      ]
+    },
+    {
+      "Malted": [
+        "Malted barley"
+      ]
+    },
+    {
+      "Sapota": [
+        "Sapota (fruit)"
+      ]
+    },
+    {
+      "Fenugreek": [
+        "Fenugreek seeds"
+      ]
+    },
+    {
+      "Banquet": [
+        "Banquet (meal)"
+      ]
+    },
+    {
+      "Vegetables": [
+        "Various vegetables (carrots, broccoli, etc.)"
+      ]
+    },
+    {
+      "Chillies": [
+        "Chilli peppers"
+      ]
+    },
+    {
+      "Prima": [
+        "Prima (possibly referring to a specific food or ingredient)"
+      ]
+    },
+    {
+      "Mushroom": [
+        "Mushrooms"
+      ]
+    },
 
-    "pasta" : [
-        "maida", "vegetable oil", "preservations", "cheese"
+
+
+
+  {
+    "Peaches": [
+      "Peaches"
     ]
-}
+  },
+  {
+    "Plate": [
+      "Plate (possibly referring to a type of food or preparation)"
+    ]
+  },
+  {
+    "Nougat": [
+      "Nougat (confectionery)"
+    ]
+  },
+  {
+    "Carob": [
+      "Carob (pod and its contents)"
+    ]
+  },
+  {
+    "Raspberry": [
+      "Raspberries"
+    ]
+  },
+  {
+    "Potato": [
+      "Potatoes"
+    ]
+  },
+  {
+    "Broilers": [
+      "Broiler chickens"
+    ]
+  },
+  {
+    "Ices": [
+      "Various types of ice (ice cubes, shaved ice, etc.)"
+    ]
+  },
+  {
+    "Curd": [
+      "Curd (milk product)"
+    ]
+  },
+  {
+    "Starches": [
+      "Various starches (corn starch, potato starch, etc.)"
+    ]
+  },
+  {
+    "Rye": [
+      "Rye (grain)"
+    ]
+  },
+  {
+    "Raisins": [
+      "Raisins"
+    ]
+  },
+  {
+    "Lard": [
+      "Lard (pig fat)"
+    ]
+  },
+  {
+    "Ginger": [
+      "Ginger (spice)"
+    ]
+  },
+  {
+    "Shrimp": [
+      "Shrimp"
+    ]
+  },
+  {
+    "Kava": [
+      "Kava (plant or beverage)"
+    ]
+  },
+  {
+    "Sweeteners": [
+      "Various sweeteners (sugar, honey, artificial sweeteners, etc.)"
+    ]
+  },
+  {
+    "Spice": [
+      "Various spices (cinnamon, cloves, etc.)"
+    ]
+  },
+  {
+    "Buffalo": [
+      "Buffalo meat"
+    ]
+  },
+  {
+    "Peanuts": [
+      "Peanuts"
+    ]
+  },
+  {
+    "Salt": [
+      "Salt"
+    ]
+  },
+  {
+    "Curry": [
+      "Curry (spice blend)"
+    ]
+  },
+  {
+    "Paddy": [
+      "Paddy (unhusked rice)"
+    ]
+  },
+  {
+    "Pistachio": [
+      "Pistachios"
+    ]
+  },
+  {
+    "Foods": [
+      "Various foods (general category)"
+    ]
+  },
+  {
+    "Toddy": [
+      "Toddy (fermented palm sap)"
+    ]
+  },
+  {
+    "Oats": [
+      "Oats"
+    ]
+  },
+  {
+    "Beer": [
+      "Beer"
+    ]
+  },
+  {
+    "Milk": [
+      "Milk"
+    ]
+  },
+  {
+    "Bread": [
+      "Bread"
+    ]
+  },
+  {
+    "Preserve": [
+      "Preserves (jams, jellies, etc.)"
+    ]
+  },
+  {
+    "Macaroni": [
+      "Macaroni"
+    ]
+  },
+  {
+    "Dates": [
+      "Dates"
+    ]
+  },
+  {
+    "Chicken": [
+      "Chicken"
+    ]
+  },
+  {
+    "Draft": [
+      "Draft (possibly referring to a type of beer)"
+    ]
+  },
+  {
+    "Pea": [
+      "Peas"
+    ]
+  },
+  {
+    "Biscuits": [
+      "Biscuits (cookies)"
+    ]
+  },
+  {
+    "Cider": [
+      "Cider"
+    ]
+  },
+  {
+    "Sardines": [
+      "Sardines"
+    ]
+  },
+  {
+    "Gums": [
+      "Various gums (thickeners, stabilizers)"
+    ]
+  },
+  {
+    "Avocado": [
+      "Avocado"
+    ]
+  },
+  {
+    "Buckwheat": [
+      "Buckwheat"
+    ]
+  },
+  {
+    "Jam": [
+      "Jam"
+    ]
+  },
+  {
+    "Juices": [
+      "Various juices (fruit juices, vegetable juices, etc.)"
+    ]
+  },
+  {
+    "Port": [
+      "Port (wine)"
+    ]
+  },
+  {
+    "Mixtures": [
+      "Various mixtures (food or drink mixes)"
+    ]
+  },
+  {
+    "Peel": [
+      "Peel (fruit peel)"
+    ]
+  },
+  {
+    "Carambola": [
+      "Carambola (starfruit)"
+    ]
+  },
+  {
+    "Meat": [
+      "Various meats (beef, pork, lamb, etc.)"
+    ]
+  },
+  {
+    "Cream": [
+      "Cream"
+    ]
+  },
+  {
+    "Sugar": [
+      "Sugar"
+    ]
+  },
+  {
+    "Prawn": [
+      "Prawns"
+    ]
+  },
+  {
+    "Blanc": [
+      "Blanc (possibly referring to a specific food or preparation)"
+    ]
+  },
+  {
+    "Whip": [
+      "Whipped cream or similar"
+    ]
+  },
+  {
+    "Citrus": [
+      "Citrus fruits (oranges, lemons, limes, etc.)"
+    ]
+  },
+  {
+    "Mangosteen": [
+      "Mangosteen"
+    ]
+  },
+  {
+    "Flour": [
+      "Various flours (wheat flour, rice flour, etc.)"
+    ]
+  },
+  {
+    "Lime": [
+      "Lime (fruit)"
+    ]
+  },
+  {
+    "Taste": [
+      "Taste (flavor)"
+    ]
+  },
+  {
+    "Dessert": [
+      "Desserts (various types)"
+    ]
+  },
+  {
+    "Grapes": [
+      "Grapes"
+    ]
+  },
+  {
+    "Whey": [
+      "Whey (dairy product)"
+    ]
+  },
+  {
+    "Jack": [
+      "Jack (possibly referring to a specific food or ingredient)"
+    ]
+  },
+  {
+    "Stout": [
+      "Stout (type of beer)"
+    ]
+  },
+  {
+    "Ingredients": [
+      "Various ingredients (general category)"
+    ]
+  },
+  {
+    "Berries": [
+      "Various berries (strawberries, blueberries, etc.)"
+    ]
+  },
+  {
+    "Cauliflower": [
+      "Cauliflower"
+    ]
+  },
+  {
+    "Oleo": [
+      "Oleo (margarine)"
+    ]
+  },
+  {
+    "Drinks": [
+      "Various drinks (beverages)"
+    ]
+  },
+  {
+    "Dill": [
+      "Dill (herb)"
+    ]
+  },
+  {
+    "Water": [
+      "Water"
+    ]
+  },
+  {
+    "Vodka": [
+      "Vodka"
+    ]
+  },
+  {
+    "Savouries": [
+      "Savoury snacks or dishes"
+    ]
+  },
+  {
+    "Camembert": [
+      "Camembert cheese"
+    ]
+  },
+  {
+    "Bonito": [
+      "Bonito (fish)"
+    ]
+  },
+  {
+    "Yam": [
+      "Yam"
+    ]
+  },
+  {
+    "Walnuts": [
+      "Walnuts"
+    ]
+  },
+  {
+    "Confectionery": [
+      "Various confectionery items (chocolates, candies, etc.)"
+    ]
+  },
+  {
+    "Mangoes": [
+      "Mangoes"
+    ]
+  },
+  {
+    "Spread": [
+      "Spreads (jam, butter, etc.)"
+    ]
+  },
+  {
+    "Sweet": [
+      "Various sweets (candies, chocolates, etc.)"
+    ]
+  },
+  {
+    "Bitter": [
+      "Bitter substances (possibly referring to specific foods or drinks)"
+    ]
+  },
+  {
+    "Semolina": [
+      "Semolina (flour)"
+    ]
+  },
+  {
+    "Fig": [
+      "Fig"
+    ]
+  },
+  {
+    "Cocktail": [
+      "Cocktail (mixed drink)"
+    ]
+  },
+  {
+    "Litchi": [
+      "Litchi (lychee)"
+    ]
+  },
+  {
+    "Rice": [
+      "Rice"
+    ]
+  },
+  {
+    "Mulberry": [
+      "Mulberries"
+    ]
+  },
+  {
+    "Mushrooms": [
+      "Mushrooms"
+    ]
+  },
+  {
+    "Soybean": [
+      "Soybeans"
+    ]
+  },
+  {
+    "Kail": [
+      "Kail (possibly referring to a specific food or ingredient)"
+    ]
+  },
+  {
+    "Coss": [
+      "Coss (possibly referring to a specific food or ingredient)"
+    ]
+  },
+  {
+    "Plums": [
+      "Plums"
+    ]
+  },
+  {
+    "Liqueur": [
+      "Various liqueurs (coffee liqueur, fruit liqueur, etc.)"
+    ]
+  },
+  {
+    "Mix": [
+      "Various mixes (drink mixes, food mixes, etc.)"
+    ]
+  },
+  {
+    "Raisin": [
+      "Raisins"
+    ]
+  },
+  {
+    "Garnishes": [
+      "Various garnishes (lemon twist, olive, etc.)"
+    ]
+  },
+    {
+    "Soybeans": [
+      "Soybeans"
+    ]
+  },
+  {
+    "Beet": [
+      "Beetroot"
+    ]
+  },
+  {
+    "Ghee": [
+      "Clarified butter (Ghee)"
+    ]
+  },
+  {
+    "Cranberry": [
+      "Cranberries"
+    ]
+  },
+  {
+    "Buttermilk": [
+      "Buttermilk"
+    ]
+  },
+  {
+    "Preserves": [
+      "Jams",
+      "Jellies",
+      "Marmalades"
+    ]
+  },
+  {
+    "Cardamom": [
+      "Cardamom pods"
+    ]
+  },
+  {
+    "Squashes": [
+      "Squash (vegetable)"
+    ]
+  },
+  {
+    "Chapaties": [
+      "Wheat flour",
+      "Water"
+    ]
+  },
+  {
+    "Prawns": [
+      "Prawns"
+    ]
+  },
+  {
+    "Chestnuts": [
+      "Chestnuts"
+    ]
+  },
+  {
+    "Guava": [
+      "Guava"
+    ]
+  },
+  {
+    "Toppings": [
+      "Various toppings (fruit, nuts, etc.)"
+    ]
+  },
+  {
+    "Caramel": [
+      "Sugar",
+      "Butter",
+      "Cream"
+    ]
+  },
+  {
+    "Toffee": [
+      "Sugar",
+      "Butter"
+    ]
+  },
+  {
+    "Offals": [
+      "Organ meats (liver, kidneys, etc.)"
+    ]
+  },
+  {
+    "Section": [
+      "Section (possibly referring to a specific food section)"
+    ]
+  },
+  {
+    "Host": [
+      "Host (possibly referring to a food host)"
+    ]
+  },
+  {
+    "Egg": [
+      "Eggs"
+    ]
+  },
+  {
+    "Kosher": [
+      "Kosher foods (foods prepared according to Jewish dietary laws)"
+    ]
+  },
+  {
+    "Walnut": [
+      "Walnuts"
+    ]
+  },
+  {
+    "Poultry": [
+      "Chicken",
+      "Turkey",
+      "Duck"
+    ]
+  },
+  {
+    "Icing": [
+      "Sugar",
+      "Butter",
+      "Milk"
+    ]
+  },
+  {
+    "Pastries": [
+      "Flour",
+      "Butter",
+      "Sugar"
+    ]
+  },
+  {
+    "Slices": [
+      "Various slices (bread, cake, etc.)"
+    ]
+  },
+  {
+    "Celery": [
+      "Celery"
+    ]
+  },
+  {
+    "Barley": [
+      "Barley grain"
+    ]
+  },
+  {
+    "Nutrition": [
+      "Various nutritional elements"
+    ]
+  },
+  {
+    "Puddings": [
+      "Milk",
+      "Sugar",
+      "Flavorings"
+    ]
+  },
+  {
+    "Chocolate": [
+      "Cocoa",
+      "Sugar",
+      "Milk"
+    ]
+  },
+  {
+    "Cola": [
+      "Carbonated water",
+      "Sugar",
+      "Flavorings"
+    ]
+  },
+  {
+    "Soups": [
+      "Various ingredients (meat, vegetables, broth)"
+    ]
+  },
+  {
+    "Beverage": [
+      "Various beverages (tea, coffee, etc.)"
+    ]
+  },
+  {
+    "Chicory": [
+      "Chicory root"
+    ]
+  },
+  {
+    "Nutmeg": [
+      "Nutmeg seed"
+    ]
+  },
+  {
+    "Strawberry": [
+      "Strawberries"
+    ]
+  },
+  {
+    "Phosphate": [
+      "Phosphates (food additives)"
+    ]
+  },
+  {
+    "Luncheon": [
+      "Various luncheon meats"
+    ]
+  },
+  {
+    "Mullet": [
+      "Mullet fish"
+    ]
+  },
+  {
+    "Crab": [
+      "Crab meat"
+    ]
+  },
+  {
+    "Currant": [
+      "Currants (blackcurrant, redcurrant)"
+    ]
+  },
+  {
+    "Quail": [
+      "Quail meat"
+    ]
+  },
+  {
+    "Cheddar": [
+      "Cheddar cheese"
+    ]
+  },
+  {
+    "Sorghum": [
+      "Sorghum grain"
+    ]
+  },
+  {
+    "Lambs": [
+      "Lamb meat"
+    ]
+  },
+  {
+    "Spinach": [
+      "Spinach leaves"
+    ]
+  },
+  {
+    "Pastas": [
+      "Various pastas (spaghetti, macaroni, etc.)"
+    ]
+  },
+  {
+    "Cut": [
+      "Various cuts of meat or vegetables"
+    ]
+  },
+  {
+    "Formula": [
+      "Infant formula"
+    ]
+  },
+  {
+    "Liquors": [
+      "Various liquors (whiskey, vodka, etc.)"
+    ]
+  },
+  {
+    "Nectars": [
+      "Fruit nectars"
+    ]
+  },
+  {
+    "Mustard": [
+      "Mustard seeds",
+      "Vinegar",
+      "Spices"
+    ]
+  },
+  {
+    "Duck": [
+      "Duck meat"
+    ]
+  },
+  {
+    "Papaya": [
+      "Papaya"
+    ]
+  },
+  {
+    "Patties": [
+      "Various patties (meat, vegetable, etc.)"
+    ]
+  },
+  {
+    "Oat": [
+      "Oats"
+    ]
+  },
+  {
+    "Kale": [
+      "Kale leaves"
+    ]
+  },
+  {
+    "Edible": [
+      "Edible items"
+    ]
+  },
+  {
+    "Beef": [
+      "Beef"
+    ]
+  },
+  {
+    "Pickle": [
+      "Pickled vegetables or fruits"
+    ]
+  },
+  {
+    "Tuna": [
+      "Tuna fish"
+    ]
+  },
+  {
+    "Banana": [
+      "Bananas"
+    ]
+  },
+  {
+    "Split": [
+      "Split items (split peas, etc.)"
+    ]
+  },
+  {
+    "Soya": [
+      "Soybeans"
+    ]
+  },
+  {
+    "Nectar": [
+      "Fruit nectar"
+    ]
+  },
+  {
+    "Ration": [
+      "Rationed food items"
+    ]
+  },
+  {
+    "Rusks": [
+      "Rusks (dry biscuits)"
+    ]
+  },
+  {
+    "Cabbage": [
+      "Cabbage"
+    ]
+  },
+  {
+    "Mince": [
+      "Minced meat"
+    ]
+  },
+  {
+    "Tiffin": [
+      "Tiffin (Indian snack or meal)"
+    ]
+  },
+  {
+    "Prunes": [
+      "Prunes (dried plums)"
+    ]
+  },
+  {
+    "Tables": [
+      "Various tables (dining, food preparation, etc.)"
+    ]
+  },
+  {
+    "Doughnuts": [
+      "Dough",
+      "Sugar",
+      "Oil"
+    ]
+  },
+  {
+    "Premix": [
+      "Premixed ingredients (baking mixes, etc.)"
+    ]
+  },
+  {
+    "Fennel": [
+      "Fennel seeds",
+      "Fennel bulb"
+    ]
+  },
+  {
+    "Copra": [
+      "Dried coconut meat"
+    ]
+  },
+  {
+    "Veg": [
+      "Various vegetables"
+    ]
+  },
+  {
+    "Wines": [
+      "Various wines (red, white, etc.)"
+    ]
+  },
+  {
+    "Grains": [
+      "Various grains (wheat, rice, etc.)"
+    ]
+  },
+  {
+    "Yoghurts": [
+      "Yogurt"
+    ]
+  },
+  {
+    "Cloves": [
+      "Clove buds"
+    ]
+  },
+  {
+    "Chickpea": [
+      "Chickpeas"
+    ]
+  },
+  {
+    "Brie": [
+      "Brie cheese"
+    ]
+  },
+  {
+    "Gouda": [
+      "Gouda cheese"
+    ]
+  },
+  {
+    "Mixture": [
+      "Various mixtures (food mixes, drink mixes)"
+    ]
+  },
+  {
+    "Turkey": [
+      "Turkey meat"
+    ]
+  },
+  {
+    "Corn": [
+      "Corn (maize)"
+    ]
+  },
+  {
+    "Sauce": [
+      "Various sauces (tomato sauce, soy sauce, etc.)"
+    ]
+  },
+  {
+    "Candies": [
+      "Various candies (sweets)"
+    ]
+  },
+  {
+    "Chutneys": [
+      "Various chutneys (fruit, vegetable)"
+    ]
+  },
+  {
+    "Garlic": [
+      "Garlic"
+    ]
+  },
+  {
+    "Gherkin": [
+      "Gherkins (pickled cucumbers)"
+    ]
+  },
+  {
+    "Heart": [
+      "Heart (organ meat)"
+    ]
+  },
+  {
+    "Pineapple": [
+      "Pineapple"
+    ]
+  },
+  {
+    "Mixes": [
+      "Various mixes (baking mixes, drink mixes)"
+    ]
+  },
+  {
+    "Candy": [
+      "Candy (sweets)"
+    ]
+  },
+  {
+    "Onions": [
+      "Onions"
+    ]
+  },
+  {
+    "Sweetener": [
+      "Various sweeteners (sugar, honey, artificial)"
+    ]
+  },
+  {
+    "Tomato": [
+      "Tomatoes"
+    ]
+  },
+  {
+    "Meals": [
+      "Various meals (breakfast, lunch, dinner)"
+    ]
+  },
+  {
+    "Jellies": [
+      "Jellies (gelatin desserts)"
+    ]
+  },
+  {
+    "Rum": [
+      "Rum"
+    ]
+  },
+  {
+    "Legume": [
+      "Various legumes (beans, lentils)"
+    ]
+  },
+  {
+    "Sauerkraut": [
+      "Sauerkraut (fermented cabbage)"
+    ]
+  },
+  {
+    "Beets": [
+      "Beetroot"
+    ]
+  },
+  {
+    "Scallops": [
+      "Scallops (shellfish)"
+    ]
+  },
+  {
+    "Veal": [
+      "Veal (calf meat)"
+    ]
+  },
+  {
+    "Macaroons": [
+      "Macaroons (coconut, almond)"
+    ]
+  },
+  {
+    "Mint": [
+      "Mint leaves"
+    ]
+  },
+  {
+    "Butter": [
+      "Butter"
+    ]
+  },
+  {
+    "Turnip": [
+      "Turnip"
+    ]
+  },
+  {
+    "Cuisine": [
+      "Various cuisines (Italian, Indian, etc.)"
+    ]
+  },
+  {
+    "Buns": [
+      "Buns (bread)"
+    ]
+  },
+  {
+    "Melon": [
+      "Melons (watermelon, cantaloupe)"
+    ]
+  },
+  {
+    "Yogurt": [
+      "Yogurt"
+    ]
+  },
+  {
+    "Rye": [
+      "Rye grain"
+    ]
+  },
+  {
+    "Beverages": [
+      "Various beverages (tea, coffee, etc.)"
+    ]
+  },
+  {
+    "Jelly": [
+      "Jelly (gelatin dessert)"
+    ]
+  },
+  {
+    "Shrimps": [
+      "Shrimps"
+    ]
+  },
+  {
+    "Leaves": [
+      "Various leaves (spinach, lettuce, etc.)"
+    ]
+  },
+  {
+    "Cashews": [
+      "Cashew nuts"
+    ]
+  },
+  {
+    "Gravy": [
+      "Gravy"
+    ]
+  },
+  {
+    "Cocoanut": [
+      "Coconut"
+    ]
+  },
+  {
+    "Sausages": [
+      "Various sausages (pork, beef, etc.)"
+    ]
+  },
+  {
+    "Hops": [
+      "Hops (used in brewing beer)"
+    ]
+  },
+  {
+    "Gelatin": [
+      "Gelatin"
+    ]
+  },
+  {
+    "Cumin": [
+      "Cumin seeds"
+    ]
+  },
+  {
+    "Toast": [
+      "Bread",
+      "Butter"
+    ]
+  },
+  {
+    "Carrot": [
+      "Carrots"
+    ]
+  },
+  {
+    "Herring": [
+      "Herring fish"
+    ]
+  },
+  {
+    "Leeks": [
+      "Leeks"
+    ]
+  },
+  {
+    "Snacks": [
+      "Various snacks (chips, nuts, etc.)"
+    ]
+  },
+  {
+    "Cocoanut": [
+      "Coconut"
+    ]
+  },
+  {
+    "Sausages": [
+      "Various sausages (pork, beef, etc.)"
+    ]
+  },
+  {
+    "Hops": [
+      "Hops (used in brewing beer)"
+    ]
+  },
+  {
+    "Gelatin": [
+      "Gelatin"
+    ]
+  },
+  {
+    "Cumin": [
+      "Cumin seeds"
+    ]
+  },
+  {
+    "Toast": [
+      "Bread",
+      "Butter"
+    ]
+  },
+  {
+    "Carrot": [
+      "Carrots"
+    ]
+  },
+
+  {
+    "Ingredient": [
+      "Various ingredients"
+    ]
+  },
+  {
+    "Asparagus": [
+      "Asparagus"
+    ]
+  },
+  {
+    "Cucumber": [
+      "Cucumbers"
+    ]
+  },
+  {
+    "Turmeric": [
+      "Turmeric root"
+    ]
+  },
+  {
+    "Trout": [
+      "Trout"
+    ]
+  },
+  {
+    "Center": [
+      "Central portion of meat or other food items"
+    ]
+  },
+  {
+    "Coriander": [
+      "Coriander leaves",
+      "Coriander seeds"
+    ]
+  },
+  {
+    "Moulds": [
+      "Various molds"
+    ]
+  },
+  {
+    "Lentil": [
+      "Lentils"
+    ]
+  },
+  {
+    "Grain": [
+      "Various grains (wheat, rice, barley, etc.)"
+    ]
+  },
+  {
+    "Allspice": [
+      "Allspice berries"
+    ]
+  },
+  {
+    "Almonds": [
+      "Almonds"
+    ]
+  },
+  {
+    "Oils": [
+      "Various oils (olive oil, vegetable oil, etc.)"
+    ]
+  },
+  {
+    "Pastes": [
+      "Various pastes (tomato paste, garlic paste, etc.)"
+    ]
+  },
+  {
+    "Salad": [
+      "Lettuce",
+      "Tomatoes",
+      "Cucumbers",
+      "Carrots",
+      "Dressing"
+    ]
+  },
+  {
+    "Alcohol": [
+      "Various alcoholic beverages"
+    ]
+  },
+  {
+    "Phosphates": [
+      "Phosphates"
+    ]
+  },
+  {
+    "Malt": [
+      "Malted barley",
+      "Malted wheat"
+    ]
+  },
+  {
+    "Pilchard": [
+      "Pilchards"
+    ]
+  },
+  {
+    "Fish": [
+      "Various types of fish"
+    ]
+  },
+  {
+    "Cherries": [
+      "Cherries"
+    ]
+  },
+  {
+    "Snack": [
+      "Various snack items"
+    ]
+  },
+  {
+    "Formulae": [
+      "Various formulas (infant formula, etc.)"
+    ]
+  },
+  {
+    "Beans": [
+      "Various beans (kidney beans, black beans, etc.)"
+    ]
+  },
+  {
+    "Margarine": [
+      "Margarine"
+    ]
+  },
+  {
+    "Juice": [
+      "Fruit juice"
+    ]
+  },
+  {
+    "Lemon": [
+      "Lemons"
+    ]
+  },
+  {
+    "Food": [
+      "Various food items"
+    ]
+  },
+  {
+    "Pickles": [
+      "Cucumbers",
+      "Vinegar",
+      "Salt",
+      "Spices"
+    ]
+  },
+  {
+    "Figs": [
+      "Figs"
+    ]
+  },
+  {
+    "Orange": [
+      "Oranges"
+    ]
+  },
+  {
+    "Oregano": [
+      "Oregano leaves"
+    ]
+  },
+  {
+    "Jacket": [
+      "Potato with skin on"
+    ]
+  },
+  {
+    "Confections": [
+      "Various confections (candies, sweets)"
+    ]
+  },
+  {
+    "Eggs": [
+      "Eggs"
+    ]
+  },
+  {
+    "Peanut": [
+      "Peanuts"
+    ]
+  },
+  {
+    "Cheese": [
+      "Various cheeses (cheddar, mozzarella, etc.)"
+    ]
+  },
+  {
+    "Carrots": [
+      "Carrots"
+    ]
+  },
+  {
+    "Jackfruit": [
+      "Jackfruit"
+    ]
+  },
+  {
+    "Desserts": [
+      "Various desserts (cakes, pastries, etc.)"
+    ]
+  },
+  {
+    "Liver": [
+      "Liver"
+    ]
+  },
+  {
+    "Apple": [
+      "Apples"
+    ]
+  },
+  {
+    "Round": [
+      "Round cuts of meat or other food items"
+    ]
+  },
+  {
+    "Watercress": [
+      "Watercress"
+    ]
+  },
+  {
+    "Cinnamon": [
+      "Cinnamon sticks",
+      "Cinnamon powder"
+    ]
+  },
+  {
+    "Table": [
+      "Various table settings"
+    ]
+  },
+  {
+    "Rabbit": [
+      "Rabbit meat"
+    ]
+  },
+  {
+    "Blueberry": [
+      "Blueberries"
+    ]
+  },
+  {
+    "Mold": [
+      "Various molds"
+    ]
+  },
+  {
+    "Lobsters": [
+      "Lobsters"
+    ]
+  },
+  {
+    "Gin": [
+      "Gin"
+    ]
+  },
+  {
+    "White": [
+      "Various white foods"
+    ]
+  },
+  {
+    "Alewife": [
+      "Alewife fish"
+    ]
+  },
+  {
+    "Torpedo": [
+      "Torpedo fish"
+    ]
+  },
+  {
+    "Pulse": [
+      "Various pulses (lentils, chickpeas, etc.)"
+    ]
+  },
+  {
+    "Grape": [
+      "Grapes"
+    ]
+  },
+  {
+    "Ananas": [
+      "Pineapples"
+    ]
+  },
+  {
+    "Pimiento": [
+      "Pimiento peppers"
+    ]
+  },
+  {
+    "Gum": [
+      "Various gums (chewing gum, gum arabic, etc.)"
+    ]
+  },
+  {
+    "Tomato": [
+      "Tomatoes"
+    ]
+  },
+  {
+    "Angelica": [
+      "Angelica plant"
+    ]
+  },
+  {
+    "Pimento": [
+      "Pimento peppers"
+    ]
+  },
+  {
+    "Brandy": [
+      "Brandy"
+    ]
+  },
+  {
+    "Sherry": [
+      "Sherry"
+    ]
+  },
+  {
+    "Chocolates": [
+      "Cocoa",
+      "Sugar",
+      "Milk"
+    ]
+  },
+  {
+    "Vanilla": [
+      "Vanilla bean",
+      "Vanilla extract"
+    ]
+  },
+  {
+    "Tamarind": [
+      "Tamarind"
+    ]
+  },
+  {
+    "Ketchup": [
+      "Tomatoes",
+      "Vinegar",
+      "Sugar",
+      "Salt"
+    ]
+  },
+  {
+    "Honey": [
+      "Honey"
+    ]
+  },
+  {
+    "Tomatoes": [
+      "Tomatoes"
+    ]
+  },
+  {
+    "Joint": [
+      "Various joints of meat"
+    ]
+  },
+  {
+    "Alfalfa": [
+      "Alfalfa"
+    ]
+  },
+  {
+    "Bean": [
+      "Various beans (kidney beans, black beans, etc.)"
+    ]
+  },
+  {
+    "Marmalades": [
+      "Citrus fruits",
+      "Sugar"
+    ]
+  },
+  {
+    "Saffron": [
+      "Saffron threads"
+    ]
+  },
+  {
+    "Brine": [
+      "Saltwater solution"
+    ]
+  },
+  {
+    "Wine": [
+      "Wine (red, white, etc.)"
+    ]
+  },
+  {
+    "Peach": [
+      "Peaches"
+    ]
+  },
+  {
+    "Lozenges": [
+      "Sugar",
+      "Flavorings"
+    ]
+  },
+  {
+    "Diets": [
+      "Various diet plans and foods"
+    ]
+  },
+  {
+    "Bilberry": [
+      "Bilberries"
+    ]
+  },
+  {
+    "Sweets": [
+      "Various sweets (candies)"
+    ]
+  },
+  {
+    "Noodles": [
+      "Flour",
+      "Water",
+      "Eggs (optional)"
+    ]
+  },
+  {
+    "Wafers": [
+      "Flour",
+      "Sugar",
+      "Butter"
+    ]
+  },
+  {
+    "Edam": [
+      "Edam cheese"
+    ]
+  },
+  {
+    "Pulses": [
+      "Various pulses (lentils, chickpeas, etc.)"
+    ]
+  },
+  {
+    "Ice": [
+      "Water"
+    ]
+  },
+  {
+    "Peppers": [
+      "Bell peppers",
+      "Chili peppers"
+    ]
+  },
+  {
+    "Whiskey": [
+      "Whiskey"
+    ]
+  },
+  {
+    "Basil": [
+      "Basil leaves"
+    ]
+  },
+  {
+    "Pears": [
+      "Pears"
+    ]
+  },
+  {
+    "Concentrate": [
+      "Fruit concentrate"
+    ]
+  },
+  {
+    "Onion": [
+      "Onions"
+    ]
+  },
+  {
+    "Plum": [
+      "Plums"
+    ]
+  },
+  {
+    "Menu": [
+      "Various menu items"
+    ]
+  },
+  {
+    "Peas": [
+      "Green peas"
+    ]
+  },
+  {
+    "Confection": [
+      "Various confections (sweets, candies)"
+    ]
+  },
+  {
+    "Cayenne": [
+      "Cayenne pepper"
+    ]
+  },
+  {
+    "Aspartame": [
+      "Aspartame"
+    ]
+  },
+  {
+    "Wheat": [
+      "Wheat grain"
+    ]
+  },
+  {
+    "Pasta": [
+      "Flour",
+      "Water",
+      "Eggs (optional)"
+    ]
+  },
+  {
+    "Liquor": [
+     
+
+ "Various liquors (whiskey, vodka, etc.)"
+    ]
+  },
+  {
+    "Whisky": [
+      "Whisky"
+    ]
+  },
+  {
+    "Spaghetti": [
+      "Durum wheat flour",
+      "Water"
+    ]
+  }
+]
+
+
+   

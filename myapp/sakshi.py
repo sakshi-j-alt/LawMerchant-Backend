@@ -1,4 +1,3 @@
-product_array = ["regulation", "pasta"]
 import json
 
 def getkeyword(productarray, json_file='myapp\keywords.json'):
@@ -19,7 +18,7 @@ def getkeyword(productarray, json_file='myapp\keywords.json'):
     return result_array
 
 
-print(getkeyword(product_array))
+
 
 
 
@@ -44,7 +43,4 @@ def checkPreviouslyProcessed(keywords, json_file='myapp\dummy_regulations.json')
 
     return result
 
-# Example usage
-keywords = getkeyword(product_array)
-output = checkPreviouslyProcessed(keywords)
-print(output)
+
