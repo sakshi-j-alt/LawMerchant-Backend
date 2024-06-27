@@ -1,0 +1,18 @@
+<!-- templates/search.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Product</title>
+</head>
+<body>
+    <h1>Search Product</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="product" placeholder="Enter product name">
+        <button type="submit">Search</button>
+    </form>
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+</body>
+</html>

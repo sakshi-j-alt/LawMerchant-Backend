@@ -1,5 +1,17 @@
 {
-    "icecream": ["regaulation1","regaulation2","regaulation3","regaulation4"],
-    "pasta":["regaulation5","regaulation6","regaulation7"],
-    "maggie":["regaulation8","regaulation9"]
+    "icecream":{
+        "category1" :["regaulation1","regaulation2","regaulation3","regaulation4"],
+        "category2" :["regaulation5","regaulation6"],
+        "category3" :["regaulation7","regaulation8"]
+    },
+    "pasta":{
+        "category4" :["regaulation11","regaulation12","regaulation13","regaulation14"],
+        "category5" :["regaulation15","regaulation16"],
+        "category6" :["regaulation17","regaulation18","regaulation19"]
+    } ,
+    "maggie":{
+        "category7" :["regaulation21","regaulation22","regaulation23","regaulation24"],
+        "category8" :["regaulation25","regaulation26","regaulation27"],
+        "category9" :["regaulation28","regaulation29"]
+    } 
 }

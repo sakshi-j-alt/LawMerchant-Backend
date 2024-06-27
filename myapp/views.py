@@ -1,4 +1,5 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
+
 from .models import regu_connection
 import os
 from .sakshi import getkeyword
@@ -45,4 +46,58 @@ def extractData(request):
     
     else:
         return HttpResponse("No product name provided", status=400)
+
+from .utils import load_json_data
+
+data = load_json_data()
+
+def search_view(request):
+    if request.method == 'POST':
+        product = request.POST.get('product').lower()
+        if product in data:
+            categories = list(data[product].keys())
+            
+            return HttpResponse(categories)
+            # return render(request, 'select_categories.html', {'product': product, 'categories': categories})
+        else:
+            return render(request, 'search.html', {'error': 'Product not found'})
+    return render(request, 'search.html')
+
+def categories_view(request):
+    if request.method == 'POST':
+        product = request.POST.get('product')
+        selected_categories = request.POST.getlist('categories')
+        
+        # Ensure product and selected categories are valid
+        if product in data and all(cat in data[product] for cat in selected_categories):
+            regulations = {cat: data[product][cat] for cat in selected_categories}
+            return HttpResponse(regulations)
+        else:
+            return HttpResponse("Invalid product or categories", status=400)
+        # return render(request, 'display_regulations.html', {'product': product, 'regulations': regulations})
+    return redirect('search')
+
+# import json
+# from django.http import HttpResponse, JsonResponse
+# from django.shortcuts import redirect
+
+# def categories_view(request):
+#     if request.method == 'POST':
+#         try:
+#             data = json.loads(request.body)
+#             product = data.get('product')
+#             selected_categories = data.get('categories', [])
+
+#             # Assuming `data` is a dictionary containing your regulations
+#             regulations = {cat: data[product][cat] for cat in selected_categories}
+#             return JsonResponse(regulations)
+
+#         except json.JSONDecodeError:
+#             return HttpResponse("Invalid JSON", status=400)
+#         except KeyError:
+#             return HttpResponse("Invalid product or categories", status=400)
+#         except Exception as e:
+#             return HttpResponse(f"An error occurred: {str(e)}", status=500)
+
+#     return redirect('search')
 

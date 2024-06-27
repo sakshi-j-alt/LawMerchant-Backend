@@ -1,0 +1,18 @@
+<!-- templates/select_categories.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Categories</title>
+</head>
+<body>
+    <h1>Select Categories for {{ product }}</h1>
+    <form method="post" action="{% url 'categories' %}">
+        {% csrf_token %}
+        <input type="hidden" name="product" value="{{ product }}">
+        {% for category in categories %}
+            <input type="checkbox" name="categories" value="{{ category }}">{{ category }}<br>
+        {% endfor %}
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>

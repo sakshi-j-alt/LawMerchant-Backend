@@ -3,7 +3,7 @@ from .models import regu_connection
 import spacy
 
 # Load the spaCy large model
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 
 # Define the keywords related to the product
 # keywords = ['turmeric','dahi','milk','regulation']

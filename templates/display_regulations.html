@@ -1,0 +1,18 @@
+<!-- templates/display_regulations.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regulations for {{ product }}</title>
+</head>
+<body>
+    <h1>Regulations for {{ product }}</h1>
+    {% for category, regulations in regulations.items %}
+        <h2>{{ category }}</h2>
+        <ul>
+            {% for regulation in regulations %}
+                <li>{{ regulation }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
