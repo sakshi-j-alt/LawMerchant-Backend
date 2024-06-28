@@ -1,17 +1,62 @@
 {
-    "icecream":{
-        "category1" :["regaulation1","regaulation2","regaulation3","regaulation4"],
-        "category2" :["regaulation5","regaulation6"],
-        "category3" :["regaulation7","regaulation8"]
+    "icecream": {
+        "category1": [
+            "regaulation1",
+            "regaulation2",
+            "regaulation3",
+            "regaulation4"
+        ],
+        "category2": [
+            "regaulation5",
+            "regaulation6"
+        ],
+        "category3": [
+            "regaulation7",
+            "regaulation8"
+        ]
     },
-    "pasta":{
-        "category4" :["regaulation11","regaulation12","regaulation13","regaulation14"],
-        "category5" :["regaulation15","regaulation16"],
-        "category6" :["regaulation17","regaulation18","regaulation19"]
-    } ,
-    "maggie":{
-        "category7" :["regaulation21","regaulation22","regaulation23","regaulation24"],
-        "category8" :["regaulation25","regaulation26","regaulation27"],
-        "category9" :["regaulation28","regaulation29"]
-    } 
+    "pasta": {
+        "category4": [
+            "regaulation11",
+            "regaulation12",
+            "regaulation13",
+            "regaulation14"
+        ],
+        "category5": [
+            "regaulation15",
+            "regaulation16"
+        ],
+        "category6": [
+            "regaulation17",
+            "regaulation18",
+            "regaulation19"
+        ]
+    },
+    "maggie": {
+        "category7": [
+            "regaulation21",
+            "regaulation22",
+            "regaulation23",
+            "regaulation24"
+        ],
+        "category8": [
+            "regaulation25",
+            "regaulation26",
+            "regaulation27"
+        ],
+        "category9": [
+            "regaulation28",
+            "regaulation29"
+        ]
+    },
+    "new_product": {
+        "new_category1": [
+            "new_regulation1",
+            "new_regulation2"
+        ],
+        "new_category2": [
+            "new_regulation3",
+            "new_regulation4"
+        ]
+    }
 }

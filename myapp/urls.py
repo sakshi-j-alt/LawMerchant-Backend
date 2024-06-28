@@ -8,4 +8,6 @@ urlpatterns = [
     path('extractData',views.extractData),
     path('search', views.search_view, name='search'),
     path('categories', views.categories_view, name='categories'),
+     path('add-regulation', views.add_regulation_view, name='add_regulation'),
+     path('save_algorithm_output', views.save_algorithm_output, name='save_algorithm_output'),
 ]
