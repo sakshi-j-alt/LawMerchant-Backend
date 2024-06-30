@@ -6,8 +6,10 @@ from .sakshi import getkeyword
 from .ritesh import processData
 import json
 from django.views.decorators.csrf import csrf_exempt
-from .match import run_algorithm
-from db_connection import ppd
+from db_connection import regulations_collection
+from .utils import load_json_data
+from django.views import View
+
 
 def lawMerchantApi (request) : 
     return HttpResponse("hello world")
@@ -51,145 +53,66 @@ def extractData(request):
     else:
         return HttpResponse("No product name provided", status=400)
 
-from .utils import load_json_data
 
-data = load_json_data()
+@csrf_exempt
+def getProductCategories(request):
+    if request.method == 'GET':
+        product_name = request.GET.get('product', None)
+        if not product_name:
+            return JsonResponse({'error': 'Product name not provided'}, status=400)
 
-# def search_view(request):
-#     if request.method == 'POST':
-#         product = request.POST.get('product').lower()
-#         if product in data:
-#             categories = list(data[product].keys())
+        # Search for the product in the database
+        product_data = regulations_collection.find_one({product_name: {'$exists': True}})
+        
+        if not product_data:
+            return JsonResponse({'error': 'Product not found'}, status=404)
+        
+        # Extract categories
+        categories = list(product_data[product_name].keys())
+        
+        return JsonResponse({'categories': categories}, status=200)
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+
+
+@csrf_exempt
+def getRegulationsFromCategory(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            product_name = data.get('product')
+            categories = data.get('categories')
             
-#             return HttpResponse(categories)
-#             # return render(request, 'select_categories.html', {'product': product, 'categories': categories})
-#         else:
-#             return render(request, 'search.html', {'error': 'Product not found'})
-#     return render(request, 'search.html')
-
-# def categories_view(request):
-#     if request.method == 'POST':
-#         product = request.POST.get('product')
-#         categories_str = request.POST.get('categories')
-        
-#         try:
-#             selected_categories = json.loads(categories_str)
-#         except json.JSONDecodeError:
-#             return HttpResponse("Invalid categories format. It should be a JSON array.", status=400)
-        
-#         # Ensure product and selected categories are valid
-#         if product in data and all(cat in data[product] for cat in selected_categories):
-#             regulations = {cat: data[product][cat] for cat in selected_categories}
-#             return JsonResponse(regulations)
-#         else:
-#             return HttpResponse("Invalid product or categories", status=400)
-       
-#     return redirect('search')
-
-# def save_json_data(data):
-#     json_file_path = os.path.join(os.path.dirname(__file__), 'dummy_regulations.json')
-#     with open(json_file_path, 'w') as file:
-#         json.dump(data, file, indent=4)
-
-# @csrf_exempt
-# def add_regulation_view(request):
-#     if request.method == 'POST':
-#         try:
-#             request_data = json.loads(request.body)
-#             product = request_data['product']
-#             categories = request_data['categories']
-
-#             data = load_json_data()
-
-#             if product not in data:
-#                 data[product] = {}
-
-#             for category, regulations in categories.items():
-#                 if category not in data[product]:
-#                     data[product][category] = []
-#                 data[product][category].extend(regulations)
-
-#             save_json_data(data)
-#             return JsonResponse({"message": "Data added successfully"}, status=200)
-#         except KeyError as e:
-#             return HttpResponse(f"Missing key: {e}", status=400)
-#         except json.JSONDecodeError:
-#             return HttpResponse("Invalid JSON format", status=400)
-#         except Exception as e:
-#             return HttpResponse(f"An error occurred: {e}", status=500)
-#     return HttpResponse("Invalid request method", status=405)
-
-
-def search_view(request):
-    if request.method == 'POST':
-        product = request.POST.get('product').lower()
-        # Query MongoDB collection
-        result = ppd.find_one({"product": product})
-
-        if result:
-            categories = [entry['category'] for entry in result['regulations']]
-            return JsonResponse(categories, safe=False)
-            # return render(request, 'select_categories.html', {'product': product, 'categories': categories})
-        else:
-            return render(request, 'search.html', {'error': 'Product not found'})
-    return render(request, 'search.html')
-
-@csrf_exempt
-def categories_view(request):
-    if request.method == 'POST':
-        try:
-            request_data = json.loads(request.body)
-            product = request_data['product']
-            categories = request_data['categories']
-
-            # Ensure product and selected categories are valid
-            result = ppd.find_one({"product": product})
-
-            if result:
-                valid_categories = result['categories'].keys()
-                for cat in categories:
-                    if cat not in valid_categories:
-                        return HttpResponse(f"Invalid category: {cat} for product: {product}", status=400)
-
-                regulations = {cat: result['categories'][cat] for cat in categories}
-                return JsonResponse(regulations)
-            else:
-                return HttpResponse("Invalid product or categories", status=400)
-        except KeyError as e:
-            return HttpResponse(f"Missing key: {e}", status=400)
+            if not product_name or not categories:
+                return JsonResponse({'error': 'Product name or categories not provided'}, status=400)
+            
+            # Search for the product in the database
+            product_data = regulations_collection.find_one({product_name: {'$exists': True}})
+            
+            if not product_data:
+                return JsonResponse({'error': 'Product not found'}, status=404)
+            
+            # Extract regulations for the specified categories
+            regulations = {category: product_data[product_name].get(category, []) for category in categories}
+            
+            return JsonResponse({'product_name': product_name, 'regulations': regulations}, status=200)
         except json.JSONDecodeError:
-            return HttpResponse("Invalid JSON format", status=400)
-        except Exception as e:
-            return HttpResponse(f"An error occurred: {e}", status=500)
-    return HttpResponse("Invalid request method", status=405)
+            return JsonResponse({'error': 'Invalid JSON data'}, status=400)
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=405)
 
-@csrf_exempt
-def add_regulation_view(request):
-    if request.method == 'POST':
-        try:
-            request_data = json.loads(request.body)
-            product = request_data['product']
-            categories = request_data['categories']
 
-            # Ensure product exists in MongoDB
-            result = ppd.find_one({"product": product})
-
-            if not result:
-                ppd.insert_one({"product": product, "categories": {}})
-
-            # Update categories with regulations
-            for category, regulations in categories.items():
-                ppd.update_one({"product": product}, {"$addToSet": {"categories." + category: {"$each": regulations}}})
-
-            return JsonResponse({"message": "Data added successfully"}, status=200)
-        except KeyError as e:
-            return HttpResponse(f"Missing key: {e}", status=400)
-        except json.JSONDecodeError:
-            return HttpResponse("Invalid JSON format", status=400)
-        except Exception as e:
-            return HttpResponse(f"An error occurred: {e}", status=500)
-    return HttpResponse("Invalid request method", status=405)
-
+def run_algorithm():
+    # Sample output from your algorithm
+    data = {
+        "product": "XYZ",
+        "categories": {
+            "category42": ["regulation112", "regulation122", "regulation132", "regulation142"],
+            "category52": ["regulation152", "regulation162"]
+        }
+    }
+    return data
 
 @csrf_exempt
 def save_algorithm_output(request):
@@ -200,15 +123,17 @@ def save_algorithm_output(request):
             product = data['product']
             categories = data['categories']
             
-            for category, regulations in categories.items():
-                ppd.insert_one({
-                    "product": product,
-                    "category": category,
-                    "regulations": regulations
-                })
-
-            return JsonResponse({"message": "Data saved to MongoDB successfully"})
+            # Prepare data in the required format
+            formatted_data = {product: categories}
+            
+            # Save the data to MongoDB
+            result = regulations_collection.insert_one(formatted_data)
+            
+            # Convert ObjectId to string for JSON serialization
+            formatted_data['_id'] = str(result.inserted_id)
+            
+            return JsonResponse({'status': 'success', 'data': formatted_data}, status=201)
         except Exception as e:
-            return HttpResponse(f"An error occurred: {str(e)}", status=500)
-    
-    return HttpResponse("Only POST method is allowed", status=405)
+            return JsonResponse({'error': str(e)}, status=500)
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=405)

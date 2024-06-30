@@ -1,4 +1,4 @@
-{
+[{
     "icecream": {
         "category1": [
             "regaulation1",
@@ -14,7 +14,7 @@
             "regaulation7",
             "regaulation8"
         ]
-    },
+    }},{
     "pasta": {
         "category4": [
             "regaulation11",
@@ -31,7 +31,7 @@
             "regaulation18",
             "regaulation19"
         ]
-    },
+    }},{
     "maggie": {
         "category7": [
             "regaulation21",
@@ -48,7 +48,7 @@
             "regaulation28",
             "regaulation29"
         ]
-    },
+    }},{
     "new_product": {
         "new_category1": [
             "new_regulation1",
@@ -58,5 +58,5 @@
             "new_regulation3",
             "new_regulation4"
         ]
-    }
-}
+    }}
+]
