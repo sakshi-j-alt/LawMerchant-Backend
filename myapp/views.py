@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse, redirect
 from django.http import HttpResponse, JsonResponse
 from .models import food,electronics,agriculture,hardware,general
 import os
-from .modules import getkeyword, check_product_name
+from .modules import check_product_name
 import json
 from django.views.decorators.csrf import csrf_exempt
 from django.views import View
