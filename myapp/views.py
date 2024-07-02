@@ -49,21 +49,21 @@ def getProductCategories(request):
         # Search for the product in the database
         if(product_type == "food"):
             product_data = food.find_one({product_name: {'$exists': True}})
-        elif(product_type == "electronics"):
-            product_data = electronics.find_one({product_name: {'$exists': True}})
-        elif(product_type == "agriculture"):
-            product_data = agriculture.find_one({product_name: {'$exists': True}})
-        elif(product_type == "hardware"):
-            product_data = hardware.find_one({product_name: {'$exists': True}})
-        elif(product_type == "general"):
-            product_data = general.find_one({product_name: {'$exists': True}})
+        # elif(product_type == "electronics"):
+        #     product_data = electronics.find_one({product_name: {'$exists': True}})
+        # elif(product_type == "agriculture"):
+        #     product_data = agriculture.find_one({product_name: {'$exists': True}})
+        # elif(product_type == "hardware"):
+        #     product_data = hardware.find_one({product_name: {'$exists': True}})
+        # elif(product_type == "general"):
+        #     product_data = general.find_one({product_name: {'$exists': True}})
         else:
-            product_data = food.find_one({product_name: {'$exists': True}})
+            return JsonResponse({'error': 'Category work in progress'}, status=400)
 
 
         if not product_data:
             if(check_product_name(product_name)):
-                result = run_algo(product_name)
+                result = run_algo(product_name,product_type)
                 save_algorithm_output(result,product_type)
                 product_data = food.find_one({product_name: {'$exists': True}})
             else:

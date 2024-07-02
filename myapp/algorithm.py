@@ -60,10 +60,8 @@ def process_all_files(base_dir, product_name):
 
     return result
 
-# Directory path to the categories
-base_dir = 'categories'
 
-def run_algo(product_name):
+def run_algo(product_name, base_dir):
     # Process all files and get the result
     result = process_all_files(base_dir, product_name)
     return result
