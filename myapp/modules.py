@@ -11,7 +11,7 @@ def check_product_name(product_name):
     else:
         return False
 
-def getkeyword(product, json_file='keywords.json'):
+def getkeyword(product, json_file='templates/keywords.json'):
     # Load the JSON data from the file
     with open(json_file, 'r') as file:
         keywords = json.load(file)
