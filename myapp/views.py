@@ -1,15 +1,12 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.http import HttpResponse, JsonResponse
-from .models import regu_connection
+from .models import food,electronics,agriculture,hardware,general
 import os
-from .sakshi import getkeyword
-from .ritesh import processData
+from .modules import getkeyword, check_product_name
 import json
 from django.views.decorators.csrf import csrf_exempt
-from db_connection import regulations_collection
-from .utils import load_json_data
 from django.views import View
-
+from .algorithm import run_algo
 
 def lawMerchantApi (request) : 
     return HttpResponse("hello world")
@@ -31,42 +28,46 @@ def add(request):
                 'category': category_name,
                 'text': text_content
             }
-            regu_connection.insert_one(document)
+            food.insert_one(document)
             print(f'Stored text from file {uploaded_file.name} in MongoDB')
             return HttpResponse("Data Added in Database")
         else:
             return HttpResponse("Please upload a .txt file", status=400)
     else:
         return HttpResponse("No file uploaded or invalid request", status=400)
-    
-product_array = []
-def extractData(request):
-    product_name = request.POST.get('productName','')
-    if product_name:
-        product_array = ["regulation", product_name]
-        keywords = getkeyword(product_array)
-        result = processData(keywords)
-        for r in keywords :
-            print (r+"\n")
-        return HttpResponse(result)
-    
-    else:
-        return HttpResponse("No product name provided", status=400)
+
 
 
 @csrf_exempt
 def getProductCategories(request):
     if request.method == 'GET':
         product_name = request.GET.get('product', None)
+        product_type = request.GET.get('productType', None)
         if not product_name:
             return JsonResponse({'error': 'Product name not provided'}, status=400)
 
         # Search for the product in the database
-        product_data = regulations_collection.find_one({product_name: {'$exists': True}})
-        
+        if(product_type == "food"):
+            product_data = food.find_one({product_name: {'$exists': True}})
+        elif(product_type == "electronics"):
+            product_data = electronics.find_one({product_name: {'$exists': True}})
+        elif(product_type == "agriculture"):
+            product_data = agriculture.find_one({product_name: {'$exists': True}})
+        elif(product_type == "hardware"):
+            product_data = hardware.find_one({product_name: {'$exists': True}})
+        elif(product_type == "general"):
+            product_data = general.find_one({product_name: {'$exists': True}})
+        else:
+            product_data = food.find_one({product_name: {'$exists': True}})
+
+
         if not product_data:
-            return JsonResponse({'error': 'Product not found'}, status=404)
-        
+            if(check_product_name(product_name)):
+                result = run_algo(product_name)
+                save_algorithm_output(result,product_type)
+                product_data = food.find_one({product_name: {'$exists': True}})
+            else:
+                return JsonResponse({'error': 'Product name is invalid'}, status=400)
         # Extract categories
         categories = list(product_data[product_name].keys())
         
@@ -82,13 +83,26 @@ def getRegulationsFromCategory(request):
         try:
             data = json.loads(request.body)
             product_name = data.get('product')
+            product_type = data.get('productType')
             categories = data.get('categories')
             
             if not product_name or not categories:
                 return JsonResponse({'error': 'Product name or categories not provided'}, status=400)
             
             # Search for the product in the database
-            product_data = regulations_collection.find_one({product_name: {'$exists': True}})
+            if(product_type == "food"):
+                product_data = food.find_one({product_name: {'$exists': True}})
+            elif(product_type == "electronics"):
+                product_data = electronics.find_one({product_name: {'$exists': True}})
+            elif(product_type == "agriculture"):
+                product_data = agriculture.find_one({product_name: {'$exists': True}})
+            elif(product_type == "hardware"):
+                product_data = hardware.find_one({product_name: {'$exists': True}})
+            elif(product_type == "general"):
+                product_data = general.find_one({product_name: {'$exists': True}})
+            else:
+                product_data = food.find_one({product_name: {'$exists': True}})
+
             
             if not product_data:
                 return JsonResponse({'error': 'Product not found'}, status=404)
@@ -103,37 +117,36 @@ def getRegulationsFromCategory(request):
         return JsonResponse({'error': 'Invalid request method'}, status=405)
 
 
-def run_algorithm():
-    # Sample output from your algorithm
-    data = {
-        "product": "XYZ",
-        "categories": {
-            "category42": ["regulation112", "regulation122", "regulation132", "regulation142"],
-            "category52": ["regulation152", "regulation162"]
-        }
-    }
-    return data
+
 
 @csrf_exempt
-def save_algorithm_output(request):
-    if request.method == 'POST':
-        try:
-            # Run the algorithm to get data
-            data = run_algorithm()
-            product = data['product']
-            categories = data['categories']
-            
-            # Prepare data in the required format
-            formatted_data = {product: categories}
-            
-            # Save the data to MongoDB
-            result = regulations_collection.insert_one(formatted_data)
-            
-            # Convert ObjectId to string for JSON serialization
-            formatted_data['_id'] = str(result.inserted_id)
-            
-            return JsonResponse({'status': 'success', 'data': formatted_data}, status=201)
-        except Exception as e:
-            return JsonResponse({'error': str(e)}, status=500)
-    else:
-        return JsonResponse({'error': 'Invalid request method'}, status=405)
+def save_algorithm_output(data,product_type):
+    try:
+        # Run the algorithm to get data
+        product = data['product']
+        categories = data['categories']
+        
+        # Prepare data in the required format
+        formatted_data = {product: categories}
+        
+        # Save the data to MongoDB
+        if(product_type == "food"):
+            result = food.insert_one(formatted_data)
+        elif(product_type == "electronics"):
+            result = electronics.insert_one(formatted_data)
+        elif(product_type == "agriculture"):
+            result = agriculture.insert_one(formatted_data)
+        elif(product_type == "hardware"):
+            result = hardware.insert_one(formatted_data)
+        elif(product_type == "general"):
+            result = general.insert_one(formatted_data)
+        else:
+            result = food.insert_one(formatted_data)
+
+        
+        # Convert ObjectId to string for JSON serialization
+        formatted_data['_id'] = str(result.inserted_id)
+        
+        
+    except Exception as e:
+        return e

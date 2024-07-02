@@ -3,5 +3,8 @@ from db_connection import db
 
 
 # Create your models here.
-
-regu_connection = db['regulations']
+food = db['food']
+electronics = db['electronics']
+agriculture = db['agriculture']
+hardware = db['hardware']
+general = db['general']
