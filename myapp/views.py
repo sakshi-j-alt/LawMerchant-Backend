@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.http import HttpResponse, JsonResponse
-from .models import food,electronics,agriculture,hardware,general, reports
+from .models import food,electronics,agriculture,hardware,general, reports, links
 import os
 from .modules import check_product_name
 import json
@@ -77,6 +77,7 @@ def getProductCategories(request):
 
 
 
+
 @csrf_exempt
 def getRegulationsFromCategory(request):
     if request.method == 'POST':
@@ -90,32 +91,45 @@ def getRegulationsFromCategory(request):
                 return JsonResponse({'error': 'Product name or categories not provided'}, status=400)
             
             # Search for the product in the database
-            if(product_type == "food"):
+            product_data = None
+            if product_type == "food":
                 product_data = food.find_one({product_name: {'$exists': True}})
-            elif(product_type == "electronics"):
+            elif product_type == "electronics":
                 product_data = electronics.find_one({product_name: {'$exists': True}})
-            elif(product_type == "agriculture"):
+            elif product_type == "agriculture":
                 product_data = agriculture.find_one({product_name: {'$exists': True}})
-            elif(product_type == "hardware"):
+            elif product_type == "hardware":
                 product_data = hardware.find_one({product_name: {'$exists': True}})
-            elif(product_type == "general"):
+            elif product_type == "general":
                 product_data = general.find_one({product_name: {'$exists': True}})
-            else:
-                product_data = food.find_one({product_name: {'$exists': True}})
-
             
             if not product_data:
                 return JsonResponse({'error': 'Product not found'}, status=404)
             
-            # Extract regulations for the specified categories
-            regulations = {category: product_data[product_name].get(category, []) for category in categories}
+            # Extract regulations and links for the specified categories
+            regulations = {}
+            links_dict = {}
+            for category in categories:
+                category_key = f"{category}" if product_type == "food" else category
+                regulations[category_key] = product_data[product_name].get(category, [])
+                
+                # Fetch link from the links collection
+                link_data = links.find_one({'category_name': category})
+                if link_data:
+                    links_dict[category_key] = link_data['link']
             
-            return JsonResponse({'product_name': product_name, 'regulations': regulations}, status=200)
+            response_data = {
+                'product_name': product_name,
+                'regulations': regulations
+            }
+            response_data.update(links_dict)
+            
+            return JsonResponse(response_data, status=200)
         except json.JSONDecodeError:
             return JsonResponse({'error': 'Invalid JSON data'}, status=400)
     else:
         return JsonResponse({'error': 'Invalid request method'}, status=405)
-
+    
 
 
 
