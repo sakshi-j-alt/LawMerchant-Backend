@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.http import HttpResponse, JsonResponse
-from .models import food,electronics,agriculture,hardware,general
+from .models import food,electronics,agriculture,hardware,general, reports
 import os
 from .modules import check_product_name
 import json
@@ -150,3 +150,44 @@ def save_algorithm_output(data,product_type):
         
     except Exception as e:
         return e
+
+
+
+
+@csrf_exempt
+def report_regulation(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            product_name = data.get('product_name')
+            category_name = data.get('category_name')
+            regulation = data.get('regulation')
+            answers = data.get('answers')
+            regulation_applicable_for = data.get('regulation_applicable_for', None)
+            other_suggestion = data.get('other_suggestion')
+
+            # Validate required fields
+            if not product_name or not category_name or not regulation or answers is None or other_suggestion is None:
+                return JsonResponse({'error': 'Missing required fields'}, status=400)
+
+            # Prepare the document to insert
+            report_data = {
+                'product_name': product_name,
+                'category_name': category_name,
+                'regulation': regulation,
+                'answers': answers,
+                'other_suggestion': other_suggestion
+            }
+
+            # Conditionally add regulation_applicable_for if provided
+            if regulation_applicable_for:
+                report_data['regulation_applicable_for'] = regulation_applicable_for
+
+            # Save the document in MongoDB
+            reports.insert_one(report_data)
+
+            return JsonResponse({'message': 'Report saved successfully'}, status=201)
+        except json.JSONDecodeError:
+            return JsonResponse({'error': 'Invalid JSON data'}, status=400)
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=405)
