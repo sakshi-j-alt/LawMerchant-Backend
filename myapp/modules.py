@@ -1,5 +1,10 @@
 import json
 import enchant
+import nltk
+import enchant
+
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 def check_product_name(product_name):
     # Create an English dictionary instance
@@ -7,9 +12,17 @@ def check_product_name(product_name):
     
     # Check if the product name is a valid word
     if dictionary.check(product_name):
-        return True
-    else:
-        return False
+        # Tokenize the product name (though it's a single word, this is for consistency)
+        tokens = nltk.word_tokenize(product_name)
+        
+        # Get the part of speech tags
+        pos_tags = nltk.pos_tag(tokens)
+        
+        # Check if the POS tag for the word is a noun (NN, NNS, NNP, NNPS)
+        if pos_tags[0][1] in ['NN', 'NNS', 'NNP', 'NNPS']:
+            return True
+    
+    return False
 
 def getkeyword(product, json_file='templates/keywords.json'):
     # Load the JSON data from the file
