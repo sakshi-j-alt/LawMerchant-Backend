@@ -1,0 +1,313 @@
+1. Chapter 2 Contaminants, Toxins and Residues
+
+   2.1 Metal Contaminants
+   
+   1. Chemicals described in monographs of the Indian Pharmacopoeia when used in foods shall not contain metal contaminants beyond the limits specified in the appropriate monographs of the Indian Pharmacopoeia for the time being in force.
+
+1. Lead:
+   - Beverages such as concentrated soft drinks (excluding concentrates used in their manufacture), fruit and vegetable juice (including tomato juice but excluding lime and lemon juice), and concentrates used in the manufacture of soft drinks, lime juice, and lemon juice have permissible lead levels of 0.5 ppm, 1.0 ppm, and 2.0 ppm respectively.
+   - Other foods like anhydrous dextrose, dextrose monohydrate, edible oils & fats, and refined white sugar (with sulphated ash content not exceeding 0.03%) have a permissible lead level of 0.5 ppm.
+   - Ice-cream, iced lollies, similar frozen confections, canned fish, canned meats, edible gelatin, meat extracts, hydrolysed protein, and dried or dehydrated vegetables (other than onions) have a permissible lead level of 5.0 ppm.
+   - Raw sugars (except those sold for direct consumption or used for manufacturing purposes other than refined sugar), edible molasses, caramel liquid and solid glucose, starch conversion products (with sulphated ash content exceeding 1.0%), cocoa powder (on dry fat free substance), yeast and yeast products (on dry matter), tea, dehydrated onions, dried herbs, spices flavourings, alginic acid, alignates, agar, carrageen, similar products derived from seaweed, and liquid pectin, chemicals not otherwise specified used as ingredients or in the preparation or processing of food, food colouring other than caramel, and solid pectin have a permissible lead level of 10.0 ppm.
+   - Hard boiled sugar confectionery and iron fortified common salt have a permissible lead level of 2.0 ppm.
+   - Corned beef, luncheon meat, cooked ham, chopped meat, canned chicken, canned mutton, goat meat, and related meat products have a permissible lead level of 2.5 ppm.
+   - Brewed vinegar and synthetic vinegar have no permissible lead level specified for them in this context.
+   - Foods not specified have a permissible lead level of 2.5 ppm.
+
+2. Copper:
+   - Beverages such as soft drinks (excluding concentrates), carbonated water, and toddy have permissible copper levels of 7.0 ppm, 1.5 ppm, and 5.0 ppm respectively.
+   - Concentrates for soft drinks and other foods like chicory (dried or roasted), coffee beans, flavourings/pectin liquid, colouring matter (on dry colouring matter), edible gelatin, tomato ketchup (on dried total solids), yeast and yeast products (on dry matter), cocoa powder (on fat free substance), tomato puree, paste, powder, juice, cocktails (on dried tomato solid), tea, pectin (solid), hard boiled sugar confectionery, iron fortified common salt, turmeric whole and powder, juice of orange, grape, apple, tomato, pineapple, lemon, pulp and pulp products of any fruit, infant milk substitute and infant foods (but not less than 2.8), brewed vinegar and synthetic vinegar, and caramel have permissible copper levels ranging from 5.0 ppm to 300.0 ppm depending on the specific food item.
+   - Foods not specified have a permissible copper level of 30.0 ppm.
+
+3. Arsenic:
+   - Milk, beverages such as soft drink intended for consumption after dilution (except carbonated water), carbonated water, infant milk substitute and infant foods, turmeric whole and powder, juice of orange, grape, apple, tomato, pineapple, lemon, pulp and pulp products of any fruit, preservatives, antioxidants, emulsifying and stabilising agents, synthetic food colours (on dry matter), ice-cream, iced lollies, similar frozen confections, dehydrated onions, edible gelatin, and liquid pectin have permissible arsenic levels ranging from 0.1 ppm to 3.0 ppm.
+   - Chicory (dried or roasted), dried herbs, finings and clearing agents, solid pectin all grades, spices, food colouring other than synthetic colouring (on dry colouring matter), hard boiled sugar confectionery, iron fortified common salt, brewed vinegar and synthetic vinegar, and foods not specified have permissible arsenic levels ranging from 1.0 ppm to 5.0 ppm.
+
+4. Tin:
+   - Processed and canned products, hard boiled sugar confectionery, jam, jellies, marmalade, juice of orange, apple, tomato, pineapple, lemon, pulp and pulp products of any fruit, infant milk substitute and infant foods, corned beef, luncheon meat, cooked ham, chopped meat, canned chicken, canned mutton, goat meat, and other related meat products, and foods not specified have a permissible tin level of 250.0 ppm.
+   - Turmeric whole and powder have no permissible tin level specified for them in this context.
+
+5. Zinc:
+   - Ready-to-drink beverages, juice of orange, grape, tomato, pineapple, lemon, pulp and pulp products of any fruit, infant milk substitute and infant foods (but not less than 25.0 ppm), edible gelatin, turmeric whole and powder, fruit and vegetable products, hard boiled sugar confectionery, and foods not specified have permissible zinc levels ranging from 5.0 ppm to 100.0 ppm.
+
+6. Cadmium:
+   - Infant milk substitute and infant foods, turmeric whole and powder, and other foods have permissible cadmium levels ranging from 0.1 ppm to 1.5 ppm.
+
+7. Mercury:
+   - Fish have a permissible mercury level of 0.5 ppm, while other foods have a permissible mercury level of 1.0 ppm.
+
+8. Methyl Mercury:
+   - All foods have a permissible methyl mercury level of 0.25 ppm (calculated as the element).
+
+9. Chromium:
+   - Refined sugar has a permissible chromium level of 20 ppb (parts per billion).
+
+10. Nickel:
+    - All hydrogenated, partially hydrogenated, interesterified vegetable oils and fats such as vanaspati, table margarine, bakery and industrial margarine, bakery shortening, fat spread, and partially hydrogenated soyabean oil have a permissible nickel level of 1.5 ppm.
+
+This reformats the data into detailed sentences while maintaining the original meaning and structure of the information.
+   
+2. Crop Contaminants and Naturally Occurring Toxic Substances
+
+   2.2.1 Aflatoxin Contaminant Limits
+   
+   1. Aflatoxin contaminant in all articles of food has a limit of 30 µg/kg.
+   2. Aflatoxin M1 in milk has a limit of 0.5 µg/kg.
+   3. Patulin in apple juice and apple juice ingredients in other beverages has a limit of 50 µg/kg.
+   4. Ochratoxin A in wheat, barley, and rye has a limit of 20 µg/kg.
+   
+   2.2.2 Naturally Occurring Toxic Substances
+   
+   1. Agaric acid has a maximum limit of 100 ppm.
+   2. Hydrocyanic acid has a maximum limit of 5 ppm.
+   3. Hypericine has a maximum limit of 1 ppm.
+   4. Saffrole has a maximum limit of 10 ppm.
+   
+3. Residues
+
+   2.3.1 Restriction on the Use of Insecticides
+   
+   1. Subject to the provisions of regulation 2.3.1(2), no insecticides shall be used directly on articles of food, provided that nothing in this regulation shall apply to the fumigants which are registered and recommended for use as such on articles of food by the Registration Committee, constituted under section 5 of the Insecticides Act, 1968 (46 of 1968).
+   2. The amount of insecticide mentioned in Column 2 on the foods mentioned in Column 3 shall not exceed the tolerance limit prescribed below.
+
+
+
+1. Aldrin and dieldrin residues in foodgrains must not exceed 0.01 mg/kg.
+   For milled foodgrains, the tolerance limit is nil.
+   In milk and milk products, the limit is 0.15 mg/kg on a fat basis.
+   Fruits and vegetables should not exceed 0.1 mg/kg.
+   Meat can have up to 0.2 mg/kg.
+   Eggs have a tolerance limit of 0.1 mg/kg on a shell-free basis.
+
+2. Carbaryl residues in fish should not exceed 0.2 mg/kg.
+   Foodgrains can contain up to 1.5 mg/kg.
+   Milled foodgrains have a nil tolerance limit.
+   Okra and leafy vegetables can have up to 10.0 mg/kg.
+   Potatoes can have 0.2 mg/kg.
+   Other vegetables have a limit of 5.0 mg/kg.
+   Cottonseed (whole) and maize cob (kernels) have a tolerance limit of 1.0 mg/kg.
+   Rice can contain up to 2.50 mg/kg, while maize has a limit of 0.50 mg/kg.
+   Chillies have a tolerance limit of 5.00 mg/kg.
+
+3. Chlordane residues in food grains should not exceed 0.02 mg/kg.
+   Milled food grains have a nil tolerance limit.
+   In milk and milk products, the limit is 0.05 mg/kg on a fat basis.
+   Vegetables can have residues up to 0.2 mg/kg.
+   Fruits should not exceed 0.1 mg/kg.
+   Sugar beet has a tolerance limit of 0.3 mg/kg.
+
+4. DDT, DDD, and DDE residues in milk and milk products should not exceed 1.25 mg/kg on a fat basis.
+   Fruits and vegetables, including potatoes, can contain up to 3.5 mg/kg.
+   Meat, poultry, and fish can have residues up to 7.0 mg/kg on a whole product basis.
+   Eggs have a tolerance limit of 0.5 mg/kg on a shell-free basis.
+
+5. DDT alone in carbonated water should not exceed 0.001 mg/kg.
+
+6. DDD alone in carbonated water should not exceed 0.001 mg/kg.
+
+7. DDE alone in carbonated water should not exceed 0.001 mg/kg.
+
+8. Diazinon residues in foodgrains should not exceed 0.05 mg/kg.
+   Milled foodgrains have a nil tolerance limit.
+   Vegetables can contain up to 0.5 mg/kg.
+
+9. Dichlorvos residues in foodgrains should not exceed 1.0 mg/kg.
+   Milled foodgrains should not exceed 0.25 mg/kg.
+   Vegetables can contain up to 0.15 mg/kg.
+   Fruits should not exceed 0.1 mg/kg.
+
+10. Dicofol residues in fruits and vegetables should not exceed 5.0 mg/kg.
+    Tea (dry manufactured) and chillies can contain up to 5.0 mg/kg.
+
+11. Dimethoate residues in fruits and vegetables should not exceed 2.0 mg/kg.
+    Chillies have a tolerance limit of 0.5 mg/kg.
+
+12. Endosulfan residues (measured as total of endosulfan A and B and endosulfan-sulphate) in fruits and vegetables should not exceed 2.0 mg/kg.
+    Cottonseed can contain up to 0.5 mg/kg.
+    Cottonseed oil (crude), Bengal gram, and pigeon pea have tolerance limits of 0.2 mg/kg, 0.20 mg/kg, and 0.10 mg/kg respectively.
+    Fish and chillies can contain up to 1.0 mg/kg.
+    Cardamom has a tolerance limit of 1.0 mg/kg.
+
+13. Endosulfan A alone in carbonated water should not exceed 0.001 mg/kg.
+
+14. Endosulfan B alone in carbonated water should not exceed 0.001 mg/kg.
+
+15. Endosulfan-Sulphate alone in carbonated water should not exceed 0.001 mg/kg.
+
+16. Fenitrothion residues in foodgrains should not exceed 0.02 mg/kg.
+    Milled foodgrains should not exceed 0.005 mg/kg.
+    In milk and milk products, the tolerance limit is 0.05 mg/kg on a fat basis.
+    Fruits can contain up to 0.5 mg/kg.
+    Vegetables have a limit of 0.3 mg/kg.
+    Meat should not exceed 0.03 mg/kg.
+
+17. Heptachlor residues (combined residues of heptachlor and its epoxide, expressed as heptachlor) in foodgrains should not exceed 0.01 mg/kg.
+    Milled foodgrains have a nil tolerance limit.
+    In milk and milk products, the limit is 0.002 mg/kg on a fat basis.
+    Vegetables should not exceed 0.05 mg/kg.
+
+18. Hydrogen cyanide residues in foodgrains should not exceed 37.5 mg/kg.
+    Milled foodgrains have a limit of 3.0 mg/kg.
+
+19. Hydrogen phosphide residues in foodgrains and milled foodgrains have a nil tolerance limit.
+
+20. Inorganic bromide (expressed as total bromide from all sources) in foodgrains should not exceed 25.0 mg/kg.
+    Milled foodgrains should not exceed 25.0 mg/kg.
+    Fruits and dried fruits have a tolerance limit of 30.0 mg/kg.
+    Spices can contain up to 400.0 mg/kg.
+
+21. Hexachlorocyclohexane and its isomers (alpha, beta, gamma, delta) have specific residue limits:
+    - Alpha isomer: Unpolished rice can contain up to 0.10 mg/kg, while polished rice has a limit of 0.05 mg/kg.
+      Whole milk has a tolerance limit of 0.02 mg/kg.
+      Fruits and vegetables should not exceed 1.00 mg/kg.
+      Fish and carbonated water should not exceed 0.25 mg/kg.
+    - Beta isomer: Similar to alpha isomer limits.
+    - Gamma isomer (Lindane): Limits vary for different food categories and products:
+      Unpolished rice and polished rice should not exceed 0.10 mg/kg and 0.05 mg/kg respectively.
+      Milk has a limit of 0.01 mg/kg on a whole basis.
+      Milk products and products with less than 2% fat have a tolerance limit of 0.20 mg/kg on a whole basis.
+      Fruits, vegetables, fish, eggs, meat, poultry, and carbonated water should not exceed 1.00 mg/kg, 0.25 mg/kg, 0.10 mg/kg (on shell-free basis), 2.00 mg/kg (on whole basis), and 0.001 mg/kg respectively.
+    - Delta isomer: Similar to alpha and beta isomer limits.
+
+22. Malathion residues (combined residues of malathion and malaoxon) in foodgrains should not exceed 4.0 mg/kg.
+    Milled foodgrains should not exceed 1.0 mg/kg.
+    Fruits, vegetables, and dried fruits can contain up to 4.0 mg/kg, 3.0 mg/kg, and 8.0 mg/kg respectively.
+    Carbonated water should not exceed 0.001 mg/kg.
+Certainly! Here's the information from the tables converted into sentence format:
+
+23. Parathion residues in fruits and vegetables should not exceed 0.5 mg/kg.
+
+24. Parathion methyl residues (combined residues of parathion methyl and its oxygen analogue, expressed as parathion methyl) in fruits should not exceed 0.2 mg/kg. In vegetables, the tolerance limit is 1.0 mg/kg.
+
+25. Phosphamidon residues (sum of phosphamidon and its desethyl derivative) in foodgrains and milled foodgrains have a tolerance limit of 0.05 mg/kg and nil, respectively. In fruits and vegetables, the limit is 0.2 mg/kg.
+
+26. Pyrethrins (sum of pyrethrins I & II and other structurally related insecticide ingredients of pyrethrum) have nil tolerance limits in foodgrains and milled foodgrains, and 1.0 mg/kg in fruits and vegetables.
+
+27. Chlorvinphos residues (residues to be measured as alpha and beta isomers of chlorvinphos) in various foods are as follows: 0.025 mg/kg in foodgrains, 0.006 mg/kg in milled foodgrains, 0.2 mg/kg in milk and milk products (on a fat basis), 0.2 mg/kg in meat and poultry (carcass fat basis), 0.05 mg/kg in vegetables, 0.05 mg/kg in groundnuts (shell-free basis), and 0.05 mg/kg in cottonseed.
+
+28. Chlorobenzilate residues in fruits should not exceed 1.0 mg/kg. In dry fruits, almonds, and walnuts (shell-free basis), the limit is 0.2 mg/kg.
+
+29. Chlorpyrifos residues in various foods are as follows: 0.05 mg/kg in foodgrains, 0.01 mg/kg in milled foodgrains, 0.5 mg/kg in fruits, 0.2 mg/kg in potatoes and onions, 0.01 mg/kg in cauliflower and cabbage, 0.2 mg/kg in other vegetables, 0.1 mg/kg in meat and poultry (carcass fat basis), 0.01 mg/kg in milk and milk products (fat basis), 0.05 mg/kg in cottonseed, 0.025 mg/kg in cottonseed oil (crude), and 0.001 mg/kg in carbonated water.
+
+30. 2,4-D residues in various foods are as follows: 0.01 mg/kg in foodgrains, 0.003 mg/kg in milled foodgrains, 0.2 mg/kg in potatoes, 0.05 mg/kg in milk and milk products, 0.05 mg/kg in meat and poultry, and 0.05 mg/kg in eggs (shell-free basis). Fruits have a limit of 2.0 mg/kg.
+
+31. Ethion residues (residues determined as ethion and its oxygen analogue, expressed as ethion) in various foods are as follows: 5.0 mg/kg in tea (dry manufactured), 0.5 mg/kg in cucumber and squash, 1.0 mg/kg in other vegetables, 0.5 mg/kg in cottonseed, 0.5 mg/kg in milk and milk products (fat basis), 0.2 mg/kg in meat and poultry (carcass fat basis), 0.2 mg/kg in eggs (shell-free basis), 0.025 mg/kg in food grains, 0.006 mg/kg in milled food grains, 1.0 mg/kg in peaches, 2.0 mg/kg in other fruits, and 0.1 mg/kg in dry fruits (shell-free basis).
+
+32. Formothion residues (determined as dimethoate and its oxygen analogue, expressed as dimethoate, except in the case of citrus fruits where it is to be determined as formothion) in various foods are as follows: 0.2 mg/kg in citrus fruits, 1.0 mg/kg in other fruits, 2.0 mg/kg in vegetables, and 1.0 mg/kg in peppers and tomatoes.
+33. Monocrotophos residues in various foods are as follows: 0.025 mg/kg in food grains, 0.006 mg/kg in milled food grains, 0.2 mg/kg in citrus fruits, 1.0 mg/kg in other fruits, 0.05 mg/kg in carrot, turnip, potatoes, and sugar beet, 0.1 mg/kg in onion and peas, 0.2 mg/kg in other vegetables, 0.1 mg/kg in cottonseed, 0.05 mg/kg in cottonseed oil (raw), 0.02 mg/kg in meat and poultry, 0.02 mg/kg in milk and milk products, 0.02 mg/kg in eggs (shell-free basis), 0.1 mg/kg in coffee (raw beans), 0.2 mg/kg in chillies, and 0.5 mg/kg in cardamom.
+34. Paraquat dichloride residues (determined as paraquat cations) in various foods are as follows: 0.1 mg/kg in food grains, 0.025 mg/kg in milled food grains, 0.2 mg/kg in potato, 0.05 mg/kg in other vegetables, 0.2 mg/kg in cottonseed, 0.05 mg/kg in cottonseed oil (edible refined), and 0.01 mg/kg in whole milk.
+35. Phosalone residues in various foods are as follows: 2.0 mg/kg in pears, 1.0 mg/kg in citrus fruits, 5.0 mg/kg in other fruits, 0.1 mg/kg in potatoes, 1.0 mg/kg in other vegetables, and 0.05 mg/kg in rapeseed/mustard oil (crude).
+36. Trichlorfon residues in various foods are as follows: 0.05 mg/kg in food grains, 0.0125 mg/kg in milled food grains, 0.05 mg/kg in sugar beet, 0.1 mg/kg in fruits and vegetables, 0.1 mg/kg in oil seeds, 0.05 mg/kg in edible oil (refined), 0.1 mg/kg in meat and poultry, and 0.05 mg/kg in whole milk.
+37. Thiometon residues (residues determined as thiometon, its sulfoxide, and sulphone, expressed as thiometon) in various foods are as follows: 0.025 mg/kg in food grains, 0.006 mg/kg in milled food grains, 0.5 mg/kg in fruits, 0.05 mg/kg in potato, carrots, and sugar beets, 0.5 mg/kg in other vegetables.
+38. Acephate residues in safflower seed and cottonseed have a tolerance limit of 2.0 mg/kg.
+39. Methamidophos residues (a metabolite of acephate) in safflower seed and cottonseed should not exceed 0.1 mg/kg.
+40. Aldicarb residues (sum of aldicarb, its sulphoxide, and sulphone, expressed as aldicarb) in potatoes should not exceed 0.5 mg/kg. In chewing tobacco, the limit is 0.1 mg/kg.
+41. Atrazine residue limits are nil for maize and 0.25 mg/kg for sugarcane.
+42. Carbendazim residue limits are 0.50 mg/kg for food grains, 0.12 mg/kg for milled food grains, 0.50 mg/kg for vegetables, 2.00 mg/kg for mangoes, 1.00 mg/kg for whole bananas, 5.00 mg/kg for other fruits, 0.10 mg/kg for cottonseed, 0.10 mg/kg for groundnuts, 0.10 mg/kg for sugar beet, 0.10 mg/kg for dry fruits, 0.10 mg/kg for eggs (shell-free basis), 0.10 mg/kg for meat and poultry (carcass fat basis), and 0.10 mg/kg for milk and milk products (fat basis).
+43. Benomyl residue limits are 0.50 mg/kg for food grains, 0.12 mg/kg for milled food grains, 0.50 mg/kg for vegetables, 2.00 mg/kg for mangoes, 1.00 mg/kg for whole bananas, 5.00 mg/kg for other fruits, 0.10 mg/kg for cottonseed, 0.10 mg/kg for groundnuts, 0.10 mg/kg for sugar beet, 0.10 mg/kg for dry fruits, 0.10 mg/kg for eggs (shell-free basis), 0.10 mg/kg for meat and poultry (carcass fat basis), and 0.10 mg/kg for milk and milk products (fat basis).
+44. Captan residue limit is 15.00 mg/kg for fruits and vegetables.
+45. Carbofuran residue limits are 0.10 mg/kg for food grains, 0.03 mg/kg for milled food grains, 0.10 mg/kg for fruits and vegetables, 0.10 mg/kg for oilseeds, 0.10 mg/kg for sugarcane, 0.10 mg/kg for meat and poultry (carcass fat basis), and 0.05 mg/kg for milk and milk products (fat basis).
+46. Copper oxychloride residue limits are 20.00 mg/kg for fruit, 1.00 mg/kg for potatoes, and 20.00 mg/kg for other vegetables.
+47. Cypermethrin residue limits are 0.05 mg/kg for wheat grains, 0.01 mg/kg for milled wheat grains, 0.20 mg/kg for brinjal, 2.00 mg/kg for cabbage, 0.20 mg/kg for bhindi, 0.20 mg/kg for oilseeds except groundnut, 0.20 mg/kg for meat and poultry (carcass fat basis), and 0.01 mg/kg for milk and milk products (fat basis).
+48. Decamethrin/Deltamethrin residue limits are 0.10 mg/kg for cottonseed, 0.50 mg/kg for food grains, 0.20 mg/kg for milled food grains, and 0.05 mg/kg for rice.
+49. Edifenphos residue limits are 0.02 mg/kg for rice, 1.00 mg/kg for rice bran, 0.01 mg/kg for eggs (shell-free basis), 0.02 mg/kg for meat and poultry (carcass fat basis), and 0.01 mg/kg for milk and milk products (fat basis).
+50. Fenthion residue limits are 0.10 mg/kg for food grains, 0.03 mg/kg for milled food grains, 0.10 mg/kg for oilseeds, 0.10 mg/kg for edible oils, 0.05 mg/kg for eggs (shell-free basis), 0.05 mg/kg for meat and poultry (carcass fat basis), and 0.01 mg/kg for milk and milk products (fat basis).
+51. Fenvalerate residue limits are 2.00 mg/kg for cauliflower, 2.00 mg/kg for brinjal, 2.00 mg/kg for okra, 0.20 mg/kg for cottonseed, 0.10 mg/kg for cottonseed oil, 1.00 mg/kg for meat and poultry (carcass fat basis), and 0.01 mg/kg for milk and milk products (fat basis).
+52. Dithiocarbamates residue tolerance limits are 0.20 mg/kg for food grains, 0.05 mg/kg for milled food grains, 0.10 mg/kg for potatoes, 3.00 mg/kg for tomatoes, 1.00 mg/kg for cherries, 3.00 mg/kg for other fruits, and 1.00 mg/kg for chillies.
+53. Phenthoate residue limits are 0.05 mg/kg for food grains, 0.01 mg/kg for milled food grains, 0.03 mg/kg for oilseeds, 0.01 mg/kg for edible oils, 0.05 mg/kg for eggs (shell-free basis), 0.05 mg/kg for meat and poultry (carcass fat basis), and 0.01 mg/kg for milk and milk products (fat basis).
+54. Phorate residue limits are 0.05 mg/kg for food grains, 0.01 mg/kg for milled food grains, 0.10 mg/kg for tomatoes, 0.05 mg/kg for other vegetables, 0.05 mg/kg for fruits, 0.05 mg/kg for oilseeds, 0.03 mg/kg for edible oils, 0.05 mg/kg for sugarcane, 0.05 mg/kg for eggs (shell-free basis), 0.05 mg/kg for meat and poultry (carcass fat basis), and 0.05 mg/kg for milk and milk products (fat basis).
+55. Simazine residue limits are nil for maize and 0.25 mg/kg for sugarcane.
+56. Pirimiphos-methyl residue limits are 0.50 mg/kg for rice, 5.00 mg/kg for food grains except rice, 1.00 mg/kg for milled food grains except rice, 0.05 mg/kg for eggs (shell-free basis), 0.05 mg/kg for meat and poultry (carcass fat basis), and 0.05 mg/kg for milk and milk products (fat basis).
+57. Alachlor residue limits are 0.05 mg/kg for cottonseed, 0.05 mg/kg for groundnut, 0.10 mg/kg for maize, and 0.10 mg/kg for soybeans.
+58. Alfa Nephthyl Acetic Acid (A.N.A.) residue limit is 0.50 mg/kg for pineapples.
+59. Bitertanol residue limits are 0.05 mg/kg for wheat and 0.10 mg/kg for groundnut.
+60. Captafol residue limit is 5.00 mg/kg for tomatoes.
+61. Cartaphydrochloride residue limit is 0.50 mg/kg for rice.
+62. Chlormequat chloride residue limits are 1.00 mg/kg for grapes and 1.00 mg/kg for cottonseed.
+63. Chlorothalonil residue limits are 0.10 mg/kg for groundnut and 0.10 mg/kg for potatoes.
+64. Diflubenzuron residue limit is 0.20 mg/kg for cottonseed.
+65. Dodine residue limit is 5.00 mg/kg for apples.
+66. Diuron residue limits are 1.00 mg/kg for cottonseed and 0.10 mg/kg for bananas.
+67. Ethephon residue limits are 2.00 mg/kg for pineapples, 0.10 mg/kg for coffee, 2.00 mg/kg for tomatoes, and 2.00 mg/kg for mangoes.
+68. Fluchloralin residue limits are 0.05 mg/kg for cottonseed and 0.05 mg/kg for soybeans.
+69. Malic hydrazide residue limits are 15.00 mg/kg for onions and 50.00 mg/kg for potatoes.
+70. Metalyxyl residue limits are 0.05 mg/kg for bajra, 0.05 mg/kg for maize, and 0.05 mg/kg for sorghum.
+71. Methomyl residue limit is 0.10 mg/kg for cottonseed.
+72. Methyl chloro-phenoxy-acetic acid (M.C.P.A.) residue limits are 0.05 mg/kg for rice and 0.05 mg/kg for wheat.
+73. Oxadiazon residue limit is 0.03 mg/kg for rice.
+74. Oxydemeton methyl residue limit is 0.02 mg/kg for food grains.
+75. Permethrin residue limits are 0.50 mg/kg for cucumbers, 0.50 mg/kg for cottonseed, 0.05 mg/kg for soybeans, and 1.00 mg/kg for sunflower seeds.
+76. Quinolphos residue limits are 0.01 mg/kg for rice, 0.01 mg/kg for pigeon peas, 0.01 mg/kg for cardamom, 0.01 mg/kg for tea, 0.01 mg/kg for fish, and 0.20 mg/kg for chillies.
+77. Thiophenatemethyl residue limits are 5.00 mg/kg for apples and 7.00 mg/kg for papayas.
+78. Triazophos residue limits are 0.20 mg/kg for chillies, 0.05 mg/kg for rice, 0.10 mg/kg for cottonseed oil, and 0.05 mg/kg for soybean oil.
+79. Profenofos residue limit is 0.05 mg/kg for cottonseed oil.
+80. Fenpropathrin residue limit is 0.05 mg/kg for cottonseed oil.
+81. Fenarimol residue limit is 5.0 mg/kg for apples.
+82. Hexaconazole residue limit is 0.1 mg/kg for apples.
+83. Iprodione residue limits are 0.5 mg/kg for rape seeds, 0.5 mg/kg for mustard seeds, 10.0 mg/kg for rice, 5.0 mg/kg for tomatoes, and 10.0 mg/kg for grapes.
+84. Tridemorph residue limits are 0.1 mg/kg for wheat, 0.5 mg/kg for grapes, and 0.05 mg/kg for mangoes.
+85. Penconazole residue limit is 0.2 mg/kg for grapes.
+86. Propiconazole residue limit is 0.05 mg/kg for wheat.
+87. Myclobutanil residue limits are 0.1 mg/kg for groundnut seeds and 1.0 mg/kg for grapes.
+88. Sulfosulfuron residue limit is 0.02 mg/kg for wheat.
+89. Trifluralin residue limit is 0.05 mg/kg for wheat.
+90. Ethoxysulfuron residue limit is 0.01 mg/kg for rice.
+91. Metolachlor residue limit is 0.05 mg/kg for soybean oil.
+92. Glyphosate residue limit is 1.0 mg/kg for tea.
+93. Linuron residue limit is 0.05 mg/kg for peas.
+94. Oxyfluorfen residue limits are 0.05 mg/kg for rice and 0.05 mg/kg for groundnut oil.
+95. Carbosulfan residue limit is 0.2 mg/kg for rice.
+96. Tricyclazole residue limit is 0.02 mg/kg for rice.
+97. Imidacloprid residue limits are 0.05 mg/kg for cottonseed oil and 0.05 mg/kg for rice.
+98. Butachlor residue limit is 0.05 mg/kg for rice.
+99. Chlorimuron-ethyl residue limit is 0.05 mg/kg for wheat.
+100. Diclofop-methyl residue limit is 0.1 mg/kg for wheat.
+101. Metribuzin residue limit is 0.1 mg/kg for soybean oil.
+102. Lambdacyhalothrin residue limit is 0.05 mg/kg for cottonseed oil.
+103. Fenazaquin residue limit is 3.0 mg/kg for tea.
+104. Pendimethalin residue limits are 0.05 mg/kg for wheat, 0.05 mg/kg for rice, 0.05 mg/kg for soybean oil, and 0.05 mg/kg for cottonseed oil.
+105. Pretilachlor residue limit is 0.05 mg/kg for rice.
+106. Fluvalinate residue limit is 0.05 mg/kg for cottonseed oil.
+107. Metasulfuron-methyl residue limit is 0.1 mg/kg for wheat.
+108. Methabenzthiazuron residue limit is 0.5 mg/kg for wheat.
+109. Imazethapyr residue limits are 0.1 mg/kg for soybean oil and 0.1 mg/kg for groundnut oil.
+110. Cyhalofop-butyl residue limit is 0.5 mg/kg for rice.
+111. Triallate residue limit is 0.05 mg/kg for wheat.
+112. Spinosad residue limits are 0.02 mg/kg for cottonseed oil, 0.02 mg/kg for cabbage, and 0.02 mg/kg for cauliflower.
+113. Thiamethoxam residue limit is 0.02 mg/kg for rice.
+114. Fenobucarb residue limit is 0.01 mg/kg for rice.
+115. Thiodicarb residue limits are 0.02 mg/kg for cottonseed oil.
+116. Anilophos residue limit is 0.1 mg/kg for rice.
+117. Fenoxy-prop-p-ethyl residue limits are 0.02 mg/kg for wheat and 0.02 mg/kg for soybean seeds.
+118. Glufosinate-ammonium residue limit is 0.01 mg/kg for tea.
+119. Clodinafop-propanyl residue limit is 0.1 mg/kg for wheat.
+120. Dithianon residue limit is 0.1 mg/kg for apples.
+121. Kitazin residue limit is 0.2 mg/kg for rice.
+122. Isoprothiolane residue limit is 0.1 mg/kg for rice.
+123. Acetamiprid residue limit is 0.1 mg/kg for cottonseed oil.
+124. Cymoxanil residue limit is 0.1 mg/kg for grapes.
+125. Triadimefon residue limits are 0.5 mg/kg for wheat, 0.1 mg/kg for peas, and 2.0 mg/kg for grapes.
+126. Fosetyl-A1 residue limits are 10 mg/kg for grapes and 0.2 mg/kg for cardamom.
+127. Isoproturon residue limit is 0.1 mg/kg for wheat.
+128. Propargite residue limit is 10.0 mg/kg for tea.
+129. Difenoconazole residue limit is 0.01 mg/kg for apples.
+130. b-Cyfluthrin residue limit is 0.02 mg/kg for cottonseed.
+131. Ethofenprox residue limit is 0.01 mg/kg for rice.
+132. Bifenthrin residue limit is 0.05 mg/kg for cottonseed.
+133. Benfuracarb residue limits are 0.05 mg/kg for red gram and 0.05 mg/kg for rice.
+134. Quizalofop-ethyl residue limit is 0.05 mg/kg for soybean seeds.
+135. Flufenacet residue limit is 0.05 mg/kg for rice.
+136. Buprofezin residue limit is 0.05 mg/kg for rice.
+137. Dimethomorph residue limits are 0.05 mg/kg for grapes and 0.05 mg/kg for potatoes.
+138. Chlorfenopyr residue limit is 0.05 mg/kg for cabbage.
+139. Indoxacarb residue limits are 0.1 mg/kg for cottonseed, 0.1 mg/kg for cottonseed oil, and 0.1 mg/kg for cabbage.
+140. Metiram residue limits are 5.0 mg/kg for tomatoes, 0.1 mg/kg for groundnut seeds, and 0.1 mg/kg for groundnut seed oil.
+141. Lufenuron residue limit is 0.3 mg/kg for cabbage.
+142. Carpropamid residue limit is 1.0 mg/kg for rice.
+143. Novaluron residue limits are 0.01 mg/kg for cottonseed, 0.01 mg/kg for cottonseed oil, 0.01 mg/kg for tomatoes, and 0.01 mg/kg for cabbage.
+144. Oxadiargyl residue limit is 0.1 mg/kg for rice.
+145. Pyrazosulfuron ethyl residue limit is 0.01 mg/kg for rice.
+146. Clomazone residue limits are 0.01 mg/kg for rice, 0.01 mg/kg for soybean seeds, and 0.01 mg/kg for soybean seed oil.
+147. Tebuconazole residue limit is 0.05 mg/kg for wheat.
+148. Propineb residue limits are 1.0 mg/kg for apples, 0.5 mg/kg for pomegranates, 0.5 mg/kg for potatoes, 2.0 mg/kg for green chillies, and 0.5 mg/kg for grapes.
+149. Thiochlorprid residue limits are 0.05 mg/kg for cottonseed, 0.05 mg/kg for cottonseed oil, and 0.01 mg/kg for rice.

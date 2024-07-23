@@ -1,0 +1,157 @@
+PART 1: STANDARDS ON FORTIFICATION
+
+A. General Principles
+1. Micronutrients may be appropriately added to foods for the following purposes as mentioned in Schedule-I:
+    1.1. Preventing or reducing the risk of, or correcting, a demonstrated deficiency of one or more micronutrients in the population or specific population group.
+    1.2. Reducing the risk of, or correcting, inadequate nutritional status of one or more micronutrients in the population or specific population group.
+    1.3. Meeting requirements or recommended intake of one or more micronutrients.
+    1.4. Maintaining or improving health.
+    1.5. Maintaining or improving the nutritional quality of foods.
+2. When fortification of a food is made mandatory, it shall be based on the severity and extent of public health need as demonstrated by generally accepted scientific evidence.
+3. The Food Authority may specify mandatory fortification of any staple food on the direction of the Government of India.
+4. Wherever "Iron (As Fe)" is used as a source of nutrient, heme iron shall not be used in any form in any article of food.
+
+B. Compliance with Standards on Micronutrient Content in Fortified Food
+1. Any manufacturer who fortifies any food shall ensure that the level of added micronutrients on the label of such fortified food falls within the range specified in Schedule-I.
+2. A tolerance of minus 10 per cent of the declared total value on the label may be allowed for compliance and analysis at any point in time, provided that the maximum limit of added micronutrients specified in Schedule-I is complied with.
+
+PART 2: GENERAL OBLIGATIONS
+
+A. Quality Assurance
+1. Every manufacturer and packer of fortified food shall give an undertaking on quality assurance and submit evidence of steps taken in this regard to the Food Authority or such other authority which the Food Authority may designate.
+    1.1. The undertaking shall be given twice a year and shall include the following:
+        1.1.1. Certification by a food laboratory notified by the Food Authority that the fortified food is in compliance with the provisions of the Act and regulations and standards specified therein.
+        1.1.2. Up-to-date record keeping and continuous inventory of fortificants used in the manufacturing or packing process, including the source of its procurement.
+        1.1.3. Appropriate monitoring procedures at different stages of the manufacturing or packing process.
+        1.1.4. Random testing of fortificants and fortified food.
+        1.1.5. Regular audit of technical equipment and processes.
+        1.1.6. Such good manufacturing practices as may be specified by the Food Authority from time to time.
+        1.1.7. Provisions for the reference of the purity criteria of micronutrients, generally accepted by pharmacopoeias, namely, Indian Pharmacopoeia, British Pharmacopoeia, Food Chemical Codex, Joint Food and Agriculture Organization or World Health Organisation Expert Committee on Food Additives, or CODEX Alimentarius may be adopted by food business operators.
+
+B. Compliance with the Generally Applicable Provisions of the Act, Regulations, and Standards
+1. All fortified food, whether voluntarily fortified or required to undergo mandatory fortification, shall be manufactured, packed, labeled, handled, distributed, and sold, whether for profit or under a Government-funded programme, only in compliance with the standards specified under the provisions of the Act and regulations made thereunder.
+
+C. Packaging and Labeling Requirements
+1. All fortified food shall be packaged in a manner that takes into consideration the nature of the fortificant added and its effect on the shelf life of such food.
+2. Every package of fortified food shall carry the words “fortified with (name of the fortificant)” and the logo specified in Schedule-II of these regulations on its label. It may also carry a tag line “Sampoorna Poshan Swasth Jeevan” under the logo.
+3. The provisions of the Food Safety and Standards (Packaging and Labeling) Regulations, 2011, shall also apply to the fortified foods.
+4. Every package of food fortified with iron shall carry a statement “People with Thalassemia may take under medical supervision.”
+5. All manufacturers and packers of fortified food complying with the provisions of the Act and rules or regulations made thereunder on fortified food shall be permitted to make a nutrition claim in relation to an article of fortified food under the Food Safety and Standards (Packaging and Labeling) Regulations, 2011.
+6. Every package of food fortified with iron shall carry a statement “People with Thalassemia may take under medical supervision and persons with Sickle Cell Anaemia are advised not to consume iron-fortified food products.”
+
+D. Promotion of Fortified Food
+1. The Food Authority shall take steps to encourage the production, manufacture, distribution, sale, and consumption of fortified food, including fortification through conventional breeding or hybridization, in cooperation with concerned departments of the Government of India/Government of States/UTs.
+    1.1. Without prejudice to the generality of sub-regulation (1), the Food Authority shall endeavor to:
+        1.1.1. Advise and promote the use of fortified food in Government-funded programmes on distribution of food.
+        1.1.2. Organise public awareness, education, and advocacy campaigns on nutrition and fortified food.
+        1.1.3. Conduct technical assistance programmes and provide technical expertise to small manufacturers to enable them to undertake fortification.
+        1.1.4. Equip laboratories and research institutions notified under the Act to conduct the nutrient analysis of fortified food.
+
+SCHEDULE-I: STANDARDS FOR FORTIFICATION OF FOODS
+
+A. Iodized salt (when fortified with iodine).
+1. Iron-fortified iodized salt (double fortified salt) when fortified with iron and iodine.
+    1.1. Salt shall be fortified with iodine and may also be fortified with iron in combination with iodine at the level given below.
+		a. The iodine content at the manufacture level should be 20-30 parts per million (on a dry weight basis) using potassium iodate.
+		b. The iodine content at the distribution, including retail level, should be 15-30 parts per million (on a dry weight basis).
+		c. The iron content (as Fe) should be 850-1100 parts per million using ferrous fumarate or ferrous sulphate.
+		d. The iodine content should be 15-30 parts per million (on a dry weight basis) using potassium iodate.
+    1.2. The total matter insoluble in water where an anticaking agent has been added shall not exceed 2.2 per cent. Sodium chloride content on a dry basis shall not be less than 97.0 per cent by weight, and it shall also conform to other parameters as mentioned under clause (1) of sub-regulation 2.9.30 of the Food Safety and Standards (Food Product Standards and Food Additives) Regulations, 2011.
+    1.3. Double fortified salt may contain hydroxypropyl methyl cellulose, titanium dioxide, fully hydrogenated soybean oil, sodium hexametaphosphate (all food grade), and anticaking agent not more than 2.0 per cent on a dry weight basis. The water-insoluble matter where an anticaking agent is used shall not exceed 2.2 per cent.
+
+B. Fortified Oil
+1.Vegetable oil shall be fortified with the following micronutrients at the level given below.
+		1. The nutrient vitamin A should be at a level of 6 µg RE - 9.9 µg RE per gram of oil, sourced from retinyl acetate or retinyl palmitate.
+		2. The nutrient vitamin D should be at a level of 0.11 µg - 0.16 µg per gram of oil, sourced from cholecalciferol or ergocalciferol (only from plant sources). 
+	1.1. Note: Vitamin A (retinol): 1 IU = 0.3 µg RE (Retinol Equivalent). 
+	1.2. Vitamin D (Cholecalciferol or Ergocalciferol): 1 IU = 0.025 µg.
+2."Fortified processed foods" means processed foods (i.e., foods that have been altered from their natural state by industrial processing methods) that have undergone the process of fortification as per the provisions of these regulations. 1.1. These may have fortified staples as raw materials and/or be fortified with permitted micronutrients and additives as specified under the Food Safety and Standards (Food Product Standards and Food Additives) Regulation, 2011.
+
+C. Fortified Milk
+1. Milk powder, when fortified, shall contain levels of Vitamin A and D such that the final reconstituted fortified milk complies with the micronutrient levels specified in Clause 3 of Schedule-I related to ‘Fortified Milk’, when prepared according to the directions on the product label.
+2. It shall only be used in Government Funded Programs for preparing ‘Reconstituted Fortified Milk’.
+3. In addition to the labeling provisions under Food Safety and Standards Regulations, the label of Fortified Milk Powder shall include the following statements:
+    (a) NOT RECOMMENDED FOR DIRECT CONSUMPTION;
+    (b) ONLY FOR USE UNDER ______________ (Name of the Government Funded Programme);
+    (c) TO BE CONSUMED ONLY AFTER RECONSTITUTION OF THE ENTIRE CONTENT AS PER THE DIRECTIONS ON THE LABEL;
+    (d) PACK ONCE OPENED, TO BE CONSUMED ON THE SAME DAY.
+4. Toned, double toned, skimmed milk, or standardized milk shall be fortified with the following micronutrients at the levels specified in the table below:
+    4.1. The nutrient vitamin A should be at a level of 270 µg RE - 450 µg RE per litre of milk, sourced from retinyl acetate or retinyl palmitate.
+    4.2. The nutrient vitamin D should be at a level of 5 µg - 7.5 µg per litre of milk, sourced from cholecalciferol or ergocalciferol (only from plant sources).
+	4.2.1. Vitamin A (retinol): 1 IU = 0.3 µg RE (Retinol Equivalent).
+	4.2.2. Vitamin D (Cholecalciferol or Ergocalciferol): 1 IU = 0.025 µg.
+
+D. Fortified Atta
+1. Atta, when fortified, shall contain added iron, folic acid, and Vitamin B-12 at the following levels:
+	1.1 Iron fortification options include ferrous citrate, ferrous lactate, ferrous sulphate, ferric pyrophosphate, electrolytic iron, ferrous fumarate, or ferrous BisGlycinate at levels ranging from 28 mg to 42.5 mg per kg. Alternatively, sodium iron (III) ethylene diamine tetra acetate trihydrate (sodium feredetate-Na Fe EDTA) can be fortified at levels from 14 mg to 21.25 mg per kg.
+	1.2 Folic acid should be fortified at levels ranging from 75 µg to 125 µg per kg.
+	1.3 Vitamin B12 options include cyanocobalamin or hydroxycobalamin, fortified at levels from 0.75 µg to 1.25 µg per kg.
+2. In addition, atta may also be fortified with the following micronutrients, singly or in combination, at the levels specified in the table below:
+	2.1 Zinc should be fortified using zinc sulphate at levels ranging from 10 mg to 15 mg per kg.
+	2.2 Vitamin A should be fortified using retinyl acetate or retinyl palmitate at levels ranging from 500 µg RE to 750 µg RE per kg.
+	2.3 Thiamine (Vitamin B1) options include thiamine hydrochloride or thiamine mononitrate, fortified at levels from 1 mg to 1.5 mg per kg.
+	2.4 Riboflavin (Vitamin B2) can be fortified using riboflavin or riboflavin 5’-phosphate sodium at levels from 1.25 mg to 1.75 mg per kg.
+	2.5 Niacin (Vitamin B3) options include nicotinamide or nicotinic acid, fortified at levels from 12.5 mg to 20 mg per kg.
+	2.6 Pyridoxine (Vitamin B6) should be fortified using pyridoxine hydrochloride at levels ranging from 1.5 mg to 2.5 mg per kg.
+3. Multi-grain Atta may also be fortified with vitamins and minerals at the same levels specified for ‘Fortified Atta’, provided that the multigrain atta contains more than 50% wheat flour in it. 
+
+E. Fortified Maida
+1. Fortified Maida, when fortified, shall contain added iron, folic acid, and Vitamin B-12 at the specified levels.
+2. Iron fortification options include ferrous citrate, ferrous lactate, ferrous sulphate, ferric pyrophosphate, electrolytic iron, ferrous fumarate, or ferrous BisGlycinate at levels ranging from 28 mg to 42.5 mg per kg.
+3. Alternatively, sodium iron (III) ethylene diamine tetra acetate trihydrate (sodium feredetate - Na Fe EDTA) can be fortified at levels from 14 mg to 21.25 mg per kg.
+4. Folic acid should be fortified at levels ranging from 75 µg to 125 µg per kg.
+5. Vitamin B12 options include cyanocobalamin or hydroxycobalamin, fortified at levels from 0.75 µg to 1.25 µg per kg.
+6. Note: added at a higher level to account for less bioavailability.
+
+SCHEDULE-III: STANDARDS FOR FORTIFIED PROCESSED FOODS
+
+A. Fortified Cereal Products:
+1.Cereal products, including breakfast cereals, pasta, and noodles, when fortified, shall contain added iron, folic acid, and Vitamin B12 at the levels given below:
+      1.1 Iron should be fortified at levels ranging from 1.4 mg to 2.7 mg per 100 g, using options such as ferrous citrate, ferrous lactate, ferrous sulphate, ferric pyrophosphate, electrolytic iron, ferrous fumarate, ferrous bisglycinate, or sodium iron (III) ethylene diamine tetra acetate trihydrate (sodium feredetate - Na Fe EDTA).
+      1.2 Folic acid should be fortified at levels ranging from 8 µg to 16 µg per 100 g.
+      1.3 Vitamin B12 should be fortified at levels ranging from 0.08 µg to 0.16 µg per 100 g, using options such as cyanocobalamin or hydroxycobalamin.
+2.In addition, fortified cereal products, when fortified, may also contain the following micronutrients, singly or in combination, at the levels given below:
+      2.1 Zinc should be fortified at levels ranging from 1.0 mg to 1.9 mg per 100 g, using zinc sulphate.
+      2.2 Vitamin A should be fortified at levels ranging from 48 µg RE to 96 µg RE per 100 g, using retinyl acetate or retinyl palmitate.
+      2.3 Thiamine (Vitamin B1) should be fortified at levels ranging from 0.1 mg to 0.19 mg per 100 g, using thiamine hydrochloride or thiamine mononitrate.
+      2.4 Riboflavin (Vitamin B2) should be fortified at levels ranging from 0.11 mg to 0.22 mg per 100 g, using riboflavin or riboflavin 5’-phosphate sodium.
+      2.5 Niacin (Vitamin B3) should be fortified at levels ranging from 1.3 mg to 2.6 mg per 100 g, using nicotinamide or nicotinic acid.
+      2.6 Pyridoxine (Vitamin B6) should be fortified at levels ranging from 0.2 mg to 0.3 mg per 100 g, using pyridoxine hydrochloride.
+
+B. Fortified bakery wares:
+1. Bakery wares include bread, biscuits, rusks, and buns. When fortified, they shall contain added iron, folic acid, and Vitamin B12 at the level given in the table below:
+   1.1 Iron should be fortified at levels ranging from 1.4 mg to 2.7 mg per 100 g, using options such as ferrous citrate, ferrous lactate, ferrous sulphate, ferric pyrophosphate, electrolytic iron, ferrous fumarate, ferrous bisglycinate, or sodium iron (III) ethylene diamine tetra acetate trihydrate (sodium feredetate - Na Fe EDTA).
+   1.2 Folic acid should be fortified at levels ranging from 8 µg to 16 µg per 100 g.
+   1.3 Vitamin B12 should be fortified at levels ranging from 0.08 µg to 0.16 µg per 100 g, using options such as cyanocobalamin or hydroxycobalamin.
+2. In addition, fortified bakery wares, when fortified, may also be fortified with the following micronutrients, singly or in combination, at the level in the table below:
+   2.1 Zinc should be fortified at levels ranging from 1.0 mg to 1.9 mg per 100 g, using zinc sulphate.
+   2.2 Vitamin A should be fortified at levels ranging from 48 µg RE to 96 µg RE per 100 g, using retinyl acetate or retinyl palmitate.
+   2.3 Thiamine (Vitamin B1) should be fortified at levels ranging from 0.1 mg to 0.19 mg per 100 g, using thiamine hydrochloride or thiamine mononitrate.
+   2.4 Riboflavin (Vitamin B2) should be fortified at levels ranging from 0.11 mg to 0.22 mg per 100 g, using riboflavin or riboflavin 5’-phosphate sodium.
+   2.5 Niacin (Vitamin B3) should be fortified at levels ranging from 1.3 mg to 2.6 mg per 100 g, using nicotinamide or nicotinic acid.
+   2.6 Pyridoxine (Vitamin B6) should be fortified at levels ranging from 0.2 mg to 0.3 mg per 100 g, using pyridoxine hydrochloride.
+
+
+C. Fortified Fruit Juices:
+1. Fruit juices, when fortified, must contain Vitamin C at levels ranging from 6 mg to 12 mg per 100 mL.
+2. Zinc Sulphate should be fortified at levels ranging from 10 mg to 15 mg per kg.
+3. Vitamin A: Fortify Vitamin A at levels ranging from 500 µg RE to 750 µg RE per kg.
+4. Thiamine (Vitamin B1): Fortify Thiamine at levels ranging from 1 mg to 1.5 mg per kg.
+5. Riboflavin (Vitamin B2): Fortify Riboflavin at levels ranging from 1.25 mg to 1.75 mg per kg.
+6. Niacin (Vitamin B3): Fortify Niacin at levels ranging from 12.5 mg to 20 mg per kg.
+7. Pyridoxine (Vitamin B6): Fortify Pyridoxine at levels ranging from 1.5 mg to 2.5 mg per kg.
+
+
+D. Fortified Rice:
+1. Rice, when fortified, shall contain added iron, folic acid, and Vitamin B-12 at the following levels:
+       1.1 Iron should be fortified at levels ranging from 28 mg to 42.5 mg per kg using either Ferric pyrophosphate or Sodium Iron (III) Ethylene diamine tetra Acetate Trihydrate (Sodium feredetate -Na Fe EDTA), at levels from 14 mg to 21.25 mg per kg.
+       1.2 Folic acid should be fortified at levels ranging from 75 µg to 125 µg per kg.
+       1.3 Vitamin B12 should be fortified at levels ranging from 0.75 µg to 1.25 µg per kg, using either Cyanocobalamine or Hydroxycobalamine.
+       Note: *added at a higher level to account for less bioavailability
+2. In addition, rice may also be fortified with the following micronutrients, singly or in combination, at the levels given:
+       2.1 Zinc should be fortified at levels ranging from 10 mg to 15 mg per kg using Zinc Oxide.
+       2.2 Vitamin A, in the form of Retinyl Palmitate, should be fortified at levels between 500 µg RE and 750 µg RE per kg.
+       2.3 Thiamine (Vitamin B1) should be fortified at levels ranging from 1 mg to 1.5 mg per kg, using either Thiamine hydrochloride or Thiamine mononitrate.
+       2.4 Riboflavin (Vitamin B2) should be fortified at levels ranging from 1.25 mg to 1.75 mg per kg, using either Riboflavin or Riboflavin 5’-phosphate sodium.
+       2.5 Niacin (Vitamin B3) should be fortified at levels ranging from 12.5 mg to 20 mg per kg, using either Nicotinamide or Nicotinic acid.
+       2.6 Pyridoxine (Vitamin B6) should be fortified at levels ranging from 1.5 mg to 2.5 mg per kg, using Pyridoxine hydrochloride.
