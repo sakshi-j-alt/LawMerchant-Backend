@@ -4,22 +4,25 @@ import spacy
 import nltk
 from .modules import remove_duplicates, getkeyword
 
-
-
 # Download necessary NLTK data
 nltk.download('punkt')
 
 # Load SpaCy model
 try:
-    nlp = spacy.load('en_core_web_lg')
+    nlp = spacy.load('en_core_web_sm')
 except OSError:
     from spacy.cli import download
-    download('en_core_web_lg')
-    nlp = spacy.load('en_core_web_lg')
+    download('en_core_web_sm')
+    nlp = spacy.load('en_core_web_sm')
 
 def read_file(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return file.read()
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return file.read()
+    except UnicodeDecodeError:
+        # Try reading with a different encoding
+        with open(file_path, 'r', encoding='latin-1') as file:
+            return file.read()
 
 def extract_product_sections(text, product):
     extracted_sections = []
@@ -64,11 +67,10 @@ def process_all_files(base_dir, product_name, product):
 
     return result
 
-
 def run_algo(product_name, base_dir):
     # Process all files and get the result
     product = []
-    product= getkeyword(product_name)
+    product = getkeyword(product_name)
     product = remove_duplicates(product)
     result = process_all_files(base_dir, product_name, product)
     return result
