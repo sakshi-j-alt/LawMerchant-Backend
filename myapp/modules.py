@@ -7,38 +7,27 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 
 def check_product_name(product_name):
-    # Create an English dictionary instance
     dictionary = enchant.Dict("en_US")
     
-    # Check if the product name is a valid word
     if dictionary.check(product_name):
-        # Tokenize the product name (though it's a single word, this is for consistency)
         tokens = nltk.word_tokenize(product_name)
         
-        # Get the part of speech tags
         pos_tags = nltk.pos_tag(tokens)
         
-        # Check if the POS tag for the word is a noun (NN, NNS, NNP, NNPS)
         if pos_tags[0][1] in ['NN', 'NNS', 'NNP', 'NNPS']:
             return True
     
     return False
 
 def getkeyword(product, json_file='templates/keywords.json'):
-    # Load the JSON data from the file
     with open(json_file, 'r') as file:
         keywords = json.load(file)
     
-    # Create a new list to avoid modifying the input list directly
     result_array = [product]
     
-    # Flatten the keywords dictionary
     flat_keywords = {key: value for item in keywords for key, value in item.items()}
     
-    # Iterate over the input product array
-    
     if product in flat_keywords:
-        # Append the corresponding values to the result array
         result_array.extend(flat_keywords[product])
     
     return result_array
@@ -63,15 +52,11 @@ def checkPreviouslyProcessed(keywords, json_file='myapp\dummy_regulations.json')
     result = []
     regulations = set()
 
-    # Iterate through the provided keywords
     for keyword in keywords:
         if keyword in data:
-            # Add the keyword to the result list
             result.append(keyword)
-            # Add the regulations for the matched keyword
             regulations.update(data[keyword])
 
-    # Convert the set of regulations to a sorted list to ensure consistent order
     result.extend(sorted(regulations))
 
     return result

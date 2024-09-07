@@ -4,7 +4,6 @@ import spacy
 import nltk
 from .modules import remove_duplicates, getkeyword
 
-# Download necessary NLTK data
 nltk.download('punkt')
 
 # Load SpaCy model
@@ -20,7 +19,6 @@ def read_file(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
     except UnicodeDecodeError:
-        # Try reading with a different encoding
         with open(file_path, 'r', encoding='latin-1') as file:
             return file.read()
 
@@ -67,8 +65,9 @@ def process_all_files(base_dir, product_name, product):
 
     return result
 
+
+
 def run_algo(product_name, base_dir):
-    # Process all files and get the result
     product = []
     product = getkeyword(product_name)
     product = remove_duplicates(product)
